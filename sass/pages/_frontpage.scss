@@ -111,14 +111,14 @@
         text-align: center;
         @include reset;
         h2 {
-            color: $color__brand-red;
-            font-family: $font__alex;
+            color: $color__h2;
+            font-family: $font__bold;
             font-size: 3.667rem;
             @include reset;
 
             span {
-                color: $color__brand-brown;
-                font-family: $font__bold;
+                color: $color__span;
+                font-family: $font__regular;
                 font-size: 2.133rem;
             }
         }

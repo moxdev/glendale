@@ -118,30 +118,30 @@ function glendale_scripts() {
 	//         // The last parameter set to TRUE states that it should be loaded in the footer.
 	wp_register_script('jquery', '/wp-includes/js/jquery/jquery.js', FALSE, FALSE, TRUE);
 
-	wp_enqueue_script( 'glendale-navigation', get_template_directory_uri() . '/js/mobile-menu.js', array('jquery'), '20151215', true );
+	wp_enqueue_script( 'glendale-navigation', get_template_directory_uri() . '/js/min/mobile-menu-min.js', array('jquery'), '20151215', true );
 
-	wp_enqueue_script( 'glendale-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'glendale-skip-link-focus-fix', get_template_directory_uri() . '/js/min/skip-link-focus-fix-min.js', array(), '20151215', true );
 
 	if ( is_page_template( 'page-contact.php' ) ) {
 
-        wp_enqueue_script( 'glendale-contact-directions-map', get_template_directory_uri() . '/plugins/mm4-directions-map/map-directions.js', array('jquery'), false, true );
+        wp_enqueue_script( 'glendale-contact-directions-map', get_template_directory_uri() . '/js/min/map-directions-min.js', array(), false, true );
     }
 
     if ( is_page_template( 'page-amenities.php' ) ) {
 
-		wp_enqueue_script( 'glendale-features-amenities', get_template_directory_uri() . '/js/features-amenities.js', array(), false, true );
+		wp_enqueue_script( 'glendale-features-amenities', get_template_directory_uri() . '/js/min/features-amenities-min.js', array(), false, true );
 	}
 
     if ( is_page_template( 'page-floorplans.php' ) ) {
 
-        wp_enqueue_script( 'glendale-floorplans', get_template_directory_uri() . '/js/floorplans.js', array('jquery'), false, true );
+        wp_enqueue_script( 'glendale-floorplans', get_template_directory_uri() . '/js/min/floorplans-min.js', array('jquery'), false, true );
     }
 
 	if ( is_page_template( 'page-floorplans.php' )  || is_page_template( 'page-photo-gallery.php' ) ) {
 
 		wp_enqueue_script( 'glendale-imagelightbox', get_template_directory_uri() . '/js/min/imagelightbox-min.js', array('jquery'), false, true );
 
-		wp_enqueue_script( 'glendale-lightbox', get_template_directory_uri() . '/js/lightbox.js', array('glendale-imagelightbox'), false, true );
+		wp_enqueue_script( 'glendale-lightbox', get_template_directory_uri() . '/js/min/lightbox-min.js', array('glendale-imagelightbox'), false, true );
 	}
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
