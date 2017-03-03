@@ -23,7 +23,11 @@ module.exports = {
         'style.css',
         '**/*.php',
         'js/**/*.js',
-        '**/*.svg'
+        'plugins/**/*.js',
+        '**/*.svg',
+        '**/*.png',
+        '**/*.jpg'
+
     ],
     "watchOptions": {},
     "server": false,

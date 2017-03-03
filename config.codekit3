@@ -66,6 +66,436 @@
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
+	"\/fonts\/Muli-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Black\/Muli-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black\/Muli-Black.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Black\/Muli-Black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black\/Muli-Black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Black\/Muli-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black\/Muli-Black.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Black\/Muli-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black\/Muli-Black.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Black\/preview.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Black\/preview.html",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Black\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Muli-Black\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/Muli-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Bold\/Muli-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold\/Muli-Bold.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Bold\/Muli-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold\/Muli-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Bold\/Muli-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold\/Muli-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Bold\/Muli-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold\/Muli-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Bold\/preview.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Bold\/preview.html",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Bold\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Muli-Bold\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/Muli-ExtraBold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-ExtraBold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-ExtraBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-ExtraBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold\/Muli-ExtraBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-ExtraBold\/preview.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-ExtraBold\/preview.html",
+		"oF": 0
+		},
+	"\/fonts\/Muli-ExtraBold\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Muli-ExtraBold\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/Muli-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Light\/Muli-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light\/Muli-Light.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Light\/Muli-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light\/Muli-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Light\/Muli-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light\/Muli-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Light\/Muli-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light\/Muli-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Light\/preview.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Light\/preview.html",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Light\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Muli-Light\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/Muli-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Regular\/Muli-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular\/Muli-Regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Regular\/Muli-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular\/Muli-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Muli-Regular\/Muli-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular\/Muli-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Regular\/Muli-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular\/Muli-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Regular\/preview.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Muli-Regular\/preview.html",
+		"oF": 0
+		},
+	"\/fonts\/Muli-Regular\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Muli-Regular\/styles-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/Muli-Regular\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Muli-Regular\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Black.ttf",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Black.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Black.zip",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Bold.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Bold.zip",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-ExtraBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-ExtraBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-ExtraBold.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-ExtraBold.zip",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Light.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Light.zip",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/original-fonts\/Muli-Regular.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/original-fonts\/Muli-Regular.zip",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1604,7 +2034,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
-	"animateCSSInjections": 1,
+	"animateCSSInjections": 0,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"babelAuxiliaryCommentAfter": "",
