@@ -1,0 +1,920 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font_",
+				"font__bold"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"color",
+				"color__brand-red"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"cide",
+				"cider_mill"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"lis",
+				"listArray〔variable〕"
+			],
+			[
+				"cal",
+				"calculateBill〔function〕"
+			],
+			[
+				"ca",
+				"classList"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"las",
+				"lastReply"
+			],
+			[
+				"tbal",
+				"table-cell"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"medi",
+				"media\tmedia"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"community",
+				"community-involvement"
+			],
+			[
+				"colo",
+				"color__brand-2"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"sideba",
+				"sidebar-1"
+			],
+			[
+				"ph",
+				"phone"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"tog",
+				"toggleOpen"
+			],
+			[
+				"togle",
+				"toggleActive"
+			],
+			[
+				"toggle",
+				"toggleActive"
+			],
+			[
+				"pro",
+				"propertyName"
+			],
+			[
+				"tran",
+				"transitionend"
+			],
+			[
+				"trn",
+				"translateY()"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"aling",
+				"align-content"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"invento",
+				"inventor"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"fi",
+				"firstAndLast"
+			],
+			[
+				"hour",
+				"hourHand"
+			],
+			[
+				"second",
+				"secondHand"
+			],
+			[
+				"trsa",
+				"transition"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"SANS",
+				"sans-serif"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"font__",
+				"font__regular"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"boa",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"phon",
+				"phone_number"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"image",
+				"imageMin"
+			],
+			[
+				"browser",
+				"browserSync"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "ja",
+		"selected_items":
+		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"server",
+				"SFTP: Setup Server…"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"emoji",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"unf",
+				"Code Folding: Select Unfolded"
+			],
+			[
+				"emo",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/plugins/mm4-directions-map",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/plugins/mm4-wordpress-google-map-with-categories",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/plugins/mm4-you-contact-form",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/plugins/mm4-you-contact-form/inc"
+	],
+	"file_history":
+	[
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/plugins/mm4-you-contact-form/inc/contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/plugins/mm4-wordpress-google-map-with-categories/area-map.js",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/plugins/mm4-directions-map/map-directions.js",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/js/area-map.js",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/js/lightbox.js",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/apartment-availability.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/specials-sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/photo-gallery.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/new-header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/homepage-sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/frontpage-header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/floorplans.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/floorplans-2.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/features-amenities.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/featured-image.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/content-tagline.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/contact-page-content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/community-page-map.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/inc/community-page-list.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/functions.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/template-parts/content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/template-parts/content-search.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/template-parts/content-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/template-parts/content-none.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/template-parts/content-home.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/template-parts/content-contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/frontpage.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/footer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/404.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page-gaithersburg.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page-floorplans.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page-contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page-availability.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page-amenities.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/single.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/sidebar-home.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/sidebar-contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page-photo-gallery.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page-residents.php",
+		"/Users/GraphicDesigner/Sites/htdocs/glendale/wp-content/themes/glendale/page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/variables-site/_colors.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/site/secondary/_homepage-sidebar.scss",
+		"/Users/GraphicDesigner/Documents/Instructions/iTheme Security Settings/#Ban List.md",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/navigation/_links.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/forms/_buttons.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/featured-image.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_frontpage.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/site/structure/_structure.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_page-photo-gallery.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/project/Creation Files/notes.md",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/navigation/_masthead.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/functions.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/mobile-menu.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/navigation.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/photo-gallery.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_page-contact.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_page-amenities.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/lightbox/_lightbox.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/lightbox.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/site/secondary/_sidebar.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_page-floorplans.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/typography/_headings.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_page-gaithersburg.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/homepage-sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/archive.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/footer/_footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/apartment-availability.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/project/Creation Files/apartment-links.md",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_page-availability.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/floorplans.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/floorplans.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-residents.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-availability.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_pages.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/footer.php",
+		"/Users/GraphicDesigner/Documents/Instructions/How-To/photoshop-notes.md",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/style.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/elements/_elements.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/typography/_copy.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/template-parts/content-home.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/specials-sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/area-map.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/features-amenities.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/pages/_page-residents.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/features-amenities.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/site/secondary/_widgets.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-floorplans.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/gulp/config.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/sass/site/primary/_posts-and-pages.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/template-parts/content-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/content-tagline.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-amenities.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/community-page-map.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/community-page-list.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-photo-gallery.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/min/imagelightbox-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/js/min/area-map-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/plugins/mm4-wordpress-google-map-with-categories/area-map.js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-gaithersburg.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/customizer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/frontpage.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/functions.php",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/server/db.json",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/src/post.js",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/src/flash-message.js",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/.babelrc",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/package.json",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_the-firm.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_frontpage.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_structure.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/navigation/_masthead.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/footer-colophon.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_resources.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/style.css.map",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/contact-sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_contact.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/imgs/logo.svg",
+		"/Users/GraphicDesigner/Desktop/disclaimer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/*project/notes.html"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 185.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Cider",
+			"cider",
+			"cier",
+			"mill",
+			"glendale_mill",
+			"mill",
+			"Cider",
+			"cider",
+			"mill",
+			"Mill",
+			"mill",
+			"Mill",
+			"mill",
+			"cider",
+			"cider_mill",
+			"cider",
+			"cidermillapartments.com",
+			"cider",
+			"CIder Mill",
+			"cider",
+			"cider_mill",
+			"@package Cider_Mill_Apartments",
+			"cider",
+			"cid",
+			"mill",
+			"cider",
+			"Cider Mill",
+			"Cider",
+			"cider_mill",
+			"Cider",
+			"cider_mill",
+			"@package Glendale",
+			"@package The Glendale",
+			"@package Cider_Mill_Apartments",
+			"cider_mill",
+			"mill",
+			"Cider",
+			"cider_mill",
+			"@package Glendale_Apartments",
+			"@package Cider_Mill_Apartments",
+			"Cider",
+			"cider",
+			"cider_mill",
+			"@package Cider_Mill_Apartments",
+			".btnd",
+			"4",
+			"header",
+			"floor_plan_expand",
+			"position:relative;\n    z-index:9999;\n    background: none;\n    // color: $color__text-alt;\n    // font-family: $font__bold;\n    text-transform: none;\n    padding: 0;\n    border: none;\n    font-size: 1.125em;\n    margin: 1em .5em;\n    // margin-left: 2em;\n\n    &:hover, &:active {\n        cursor:pointer;\n    }",
+			"right",
+			"margin",
+			"35",
+			"h1",
+			"700",
+			"h1",
+			"Monthly Events",
+			"right",
+			"h2",
+			"h1",
+			"h2",
+			"h1",
+			"h2",
+			"h1",
+			"max-width(1100px)",
+			"@include max-width(1100px);",
+			"@include max-width(100px);",
+			"@include max-width(1400px);",
+			"255",
+			"0",
+			"1",
+			"2.5",
+			".btnd",
+			"30px",
+			"40px",
+			"50px",
+			"20",
+			"block",
+			"li",
+			"70",
+			".png",
+			"medium",
+			" !important",
+			"@include max-width(1200px);",
+			"left",
+			"medium",
+			"view-btn",
+			"hidden",
+			"h1",
+			"margin",
+			"false",
+			"has-thumb",
+			"features",
+			"Features",
+			"features",
+			"h2",
+			"section",
+			"cat-6",
+			"mm4",
+			"argument",
+			"slastReply",
+			"Filters",
+			"argument",
+			"p",
+			"Island IT",
+			"xlink:href=\"data:img/png;base64",
+			"20151215",
+			"min/",
+			"20150908",
+			"mm4",
+			"## Home Page",
+			"img",
+			"#home-carousel",
+			"span",
+			"Home Page",
+			"}\n",
+			"::before",
+			"&::before",
+			"&:before",
+			"#page .site-content .content-area .site-main article .page-wrapper .entry-header h1",
+			"::before",
+			"&::before",
+			"true",
+			"relative",
+			"wrapper",
+			"25",
+			"30",
+			"]",
+			"["
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"glendale",
+			"glendale.com",
+			"The Glendale",
+			"glendale",
+			"@package The Glendale",
+			"The Glendale",
+			"glendale",
+			"@package The_Glendale",
+			"glendale",
+			"@package The_Glendale",
+			"@package Glendale_Apartments",
+			"glendale",
+			"@package The_Glendale",
+			"@include max-width(1100px);",
+			"@include max-width(1400px);"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 158.0
+	},
+	"pinned_build_system": "",
+	"project": "glendale.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_front",
+				"sass/pages/_frontpage.scss"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"front",
+				"sass/pages/_frontpage.scss"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"_mas",
+				"sass/navigation/_masthead.scss"
+			],
+			[
+				"_amen",
+				"sass/page-templates/_amenities.scss"
+			],
+			[
+				"_post",
+				"sass/site/primary/_posts-and-pages.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

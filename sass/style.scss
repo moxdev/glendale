@@ -1,19 +1,19 @@
 /*!
-Theme Name: The Glendale
+Theme Name: my_theme
 Theme URI: http://underscores.me/
-Author: Millennium Marketing Soultions
-Author URI: http://mm4solutions.com
-Description: A theme for The Glendale Apartments
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: glendale
+Text Domain: my_theme
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-The Glendale is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+my_theme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -41,9 +41,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Page Templates
+    ## Front Page
+# Footer
+
 --------------------------------------------------------------*/
-@import "variables-site/variables-site";
 @import "mixins/mixins-master";
+@import "variables-site/variables-site";
 
 /*--------------------------------------------------------------
 # Normalize
@@ -59,6 +63,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Elements
 --------------------------------------------------------------*/
 @import "elements/elements";
+
+/*--------------------------------------------------------------
+# Lightbox
+--------------------------------------------------------------*/
+@import "lightbox/lightbox";
 
 /*--------------------------------------------------------------
 # Forms
@@ -86,9 +95,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "modules/clearings";
 
 /*--------------------------------------------------------------
-# Widgets
+# Sidebar
 --------------------------------------------------------------*/
-@import "site/secondary/widgets";
+@import "site/secondary/sidebar";
+
+/*--------------------------------------------------------------
+## Homepage Sidebar
+--------------------------------------------------------------*/
+@import "site/secondary/homepage-sidebar";
 
 /*--------------------------------------------------------------
 # Content
@@ -104,3 +118,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+@import "pages/pages";
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "footer/footer";

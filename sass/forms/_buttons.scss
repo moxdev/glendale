@@ -2,21 +2,29 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: $color__border-button;
-	border-radius: 3px;
+	border: none;
+	border-radius: 0;
 	background: $color__background-button;
-	color: rgba(0, 0, 0, .8);
+	color: $color__button;
 	@include font-size(0.75);
 	line-height: 1;
 	padding: .6em 1em .4em;
 
-	&:hover {
-		border-color: $color__border-button-hover;
+	&:active,
+	&::focus,
+	&:active {
+	  background-image: none;
+	  outline: 0;
+	  -webkit-box-shadow: none;
+	          box-shadow: none;
 	}
 
-	&:active,
-	&:focus {
-		border-color: $color__border-button-focus;
-	}
+	// &:hover {
+	// 	border-color: $color__border-button-hover;
+	// }
+
+	// &:active,
+	// &:focus {
+	// 	border-color: none;
+	// }
 }
