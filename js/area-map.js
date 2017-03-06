@@ -6,19 +6,19 @@ var myMap = 'map-canvas';
 var apiKey = 'AIzaSyDqcS80RSqBcZepAEhhxKHkSzYLZeNI0Ho';
 
 // Paths to JSON data
-var markersFeed = '/wp-json/wp/v2/area_landmarks?per_page=100';
+var markersFeed = 'http://localhost:8888/glendale/wp-json/wp/v2/area_landmarks?per_page=100';
 
 // Specify whether you want to add category controls for landmarks to the map (true/false) and whether you want to add the number of landmarks in a category to the controls (true/false).
 var addCats = true;
 var catCount = false;
-var catsFeed = '/wp-json/wp/v2/landmark_types';
+var catsFeed = 'http://localhost:8888/glendale/wp-json/wp/v2/landmark_types';
 
 // Specify whether you want to add a static community marker to the map (true/false).
 var addCommMarker = true;
-var locationOptionsFeed = '/wp-json/acf/v2/options';
+var locationOptionsFeed = 'http://localhost:8888/glendale/wp-json/acf/v2/options';
 
 // Set the path to the icons in your theme
-var iconPath = '/wp-content/themes/glendale/imgs/';
+var iconPath = 'http://localhost:8888/glendale/wp-content/themes/glendale/imgs/';
 
 var map;
 var commMarker;

@@ -7,8 +7,18 @@
     .section-header {
         margin-bottom: 1.250em;
 
+        h2 {
+            padding: 0 .1em;
+
+            @include respond-to(small) {
+                padding: 0 .4em;
+            }
+        }
+
         @include respond-to(medium) {
             margin-bottom: 1.688em;
+
+
         }
     }
 
@@ -99,10 +109,10 @@
             top: .3em;
             right: .3em;
             opacity: 0;
-            color: #fff;
+            color: #000;
             font-size:  1.733rem;
-            background-color: $color__brand-red;
-            font-family: $font__bold;
+            background-color: $color__brand-seagreen;
+            font-family: $font__regular;
             text-decoration: none;
             display: inline-block;
             width: 40px;
@@ -112,9 +122,9 @@
             white-space: nowrap;
             vertical-align: middle;
             border-radius: 50%;
-            border: 3px solid #fff;
+            border: 3px solid #000;
             box-shadow:
-                0 0 0 1px hsl(0, 0%, 100%);
+                0 0 0 1px hsl(0, 0%, 0%);
             z-index: 2;
 
             &:hover {
@@ -131,6 +141,7 @@
         .view {
             background-color: transparent;
             text-decoration: underline;
+            color: #000;
 
             &:hover {
                 cursor: pointer;
@@ -163,7 +174,7 @@
 
     .title {
         text-transform: uppercase;
-        font-size: 1.2rem;
+        font-size: .9rem;
         line-height: 1.1;
         font-family: $font__regular;
 

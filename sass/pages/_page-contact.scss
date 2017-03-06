@@ -54,14 +54,14 @@
 
                 a {
                     text-decoration: none;
-                    color: $color__brand-brown;
+                    color: $color__brand-seagreen;
 
                     &:hover, &:active, &:focus {
                         color: $color__brand-pink;
                     }
 
                     &:visited {
-                        color: $color__brand-brown;
+                        color: $color__brand-seagreen;
                     }
                 }
 
@@ -132,7 +132,7 @@
 
                         form {
                             label {
-                                color: $color__brand-red;
+                                color: $color__brand-black;
                                 text-transform: uppercase;
                                 font-size: 1.25rem;
                                 font-family: $font__bold;

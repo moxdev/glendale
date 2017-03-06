@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/*project\/notes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/*project\/notes.html",
+		"oF": 0
+		},
 	"\/*project\/notes.md": {
 		"cS": 0,
 		"eF": 1,
@@ -532,6 +538,114 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/imgs\/cat-4.png": {
+		"ft": 32768,
+		"iS": 2223,
+		"oA": 0,
+		"oAP": "\/imgs\/cat-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/cat-5.png": {
+		"ft": 32768,
+		"iS": 2140,
+		"oA": 0,
+		"oAP": "\/imgs\/cat-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/cat-6.png": {
+		"ft": 32768,
+		"iS": 2641,
+		"oA": 0,
+		"oAP": "\/imgs\/cat-6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/deco-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/deco-background.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/recreation-50.png": {
+		"ft": 32768,
+		"iS": 899,
+		"oA": 0,
+		"oAP": "\/imgs\/recreation-50.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/recreation-60.png": {
+		"ft": 32768,
+		"iS": 1169,
+		"oA": 0,
+		"oAP": "\/imgs\/recreation-60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/restaurants-40.png": {
+		"ft": 32768,
+		"iS": 707,
+		"oA": 0,
+		"oAP": "\/imgs\/restaurants-40.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/restaurants-50.png": {
+		"ft": 32768,
+		"iS": 909,
+		"oA": 0,
+		"oAP": "\/imgs\/restaurants-50.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/restaurants-60.png": {
+		"ft": 32768,
+		"iS": 1072,
+		"oA": 0,
+		"oAP": "\/imgs\/restaurants-60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/shopping-50.png": {
+		"ft": 32768,
+		"iS": 815,
+		"oA": 0,
+		"oAP": "\/imgs\/shopping-50.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/shopping-60.png": {
+		"ft": 32768,
+		"iS": 980,
+		"oA": 0,
+		"oAP": "\/imgs\/shopping-60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/shopping-70.png": {
+		"ft": 32768,
+		"iS": 1148,
+		"oA": 0,
+		"oAP": "\/imgs\/shopping-70.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/inc\/apartment-availability.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -763,6 +877,21 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/map-directions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/map-directions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/map-directions-min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/min\/map-directions-min.js.map",
+		"oF": 0
+		},
 	"\/js\/min\/mobile-menu-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -920,18 +1049,18 @@
 	"\/plugins\/mm4-wordpress-google-map-with-categories\/area-map.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/plugins\/mm4-wordpress-google-map-with-categories\/area-map-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/plugins\/mm4-wordpress-google-map-with-categories\/map-nav-top.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/plugins\/mm4-wordpress-google-map-with-categories\/map-nav-top-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},

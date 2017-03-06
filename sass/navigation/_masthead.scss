@@ -1,7 +1,7 @@
 // masthead.scss
 
 #masthead {
-    background-color: $color__brand-brown;
+    background-color: $color__brand-seagreen;
     color: #fff;
     width: 100%;
     height: auto;
@@ -24,7 +24,7 @@
         right: 0;
         height:375px;
         text-align: center;
-        background-color: $color__brand-red;
+        background-color: $color__brand-gray;
         color: #fff;
         overflow:hidden;
         z-index:9999;
@@ -127,8 +127,8 @@
 
             .masthead-phone {
                 text-align: right;
-                color: #fff;
-                font-family: $font__bold;
+                color: #000;
+                font-family: $font__extra-bold;
                 margin-bottom: 5px;
 
                 span {
@@ -141,7 +141,7 @@
                 }
 
                 a {
-                    color: #fff;
+                    color: #000;
                     text-decoration: none;
                     font-family: $font__bold;
                     font-size: 1.188rem;
@@ -149,19 +149,19 @@
             }
 
             .menu-toggle {
-                background-color: $color__brand-red;
+                background-color: $color__brand-gray;
                 color: #fff;
-                font-family: $font__light;
-                font-size: 0.9375rem;
+                font-family: $font__regular;
+                font-size: 0.9333rem;
                 text-transform: uppercase;
-                width: 63px;
+                width: 72px;
                 margin-left: auto;
                 padding: .5em;
             }
 
-            .menu-menu-container {
+            .menu-primary-container {
                 display: none;
-                color: #fff;
+                color: #000;
 
                 ul {
                     list-style-type: none;
@@ -169,7 +169,8 @@
                     .current-menu-item {
 
                         a {
-                            color: $color__brand-pink;
+                            color: #000;
+                            font-family: $font__bold;
                         }
                     }
 
@@ -178,13 +179,13 @@
 
                         a {
                             padding: 1.5em;
-                            color: #fff;
+                            color: #000;
                             text-decoration: none;
                             font-family: $font__light;
 
                             &:before {
                                 content: '\25b6';
-                                color: #fff;
+                                color: #000;
                                 font-size: .5em;
                                 margin-right: 5px;
                                 vertical-align: middle;
@@ -231,16 +232,12 @@
                     }
                 }
 
-                .menu-menu-container {
+                .menu-primary-container {
                     display: inline-block;
 
                     ul {
                         display: inline-flex;
                         padding: 0;
-
-                        .residents-menu {
-                            display: none;
-                        }
 
                         li {
                             font-size: 1.533rem;

@@ -1,40 +1,42 @@
 .home {
 
     #secondary {
-        background-image: url(imgs/original-deco-background.svg);
+        background-image: url(imgs/deco-background.svg);
         background-repeat: no-repeat;
-        background-attachment: local;
-        background-position: 95% 15px;
-        margin-bottom: .5em;
+        // background-attachment: local;
+        background-position: 97%;
+        background-size: 35%;
 
         .sidebar-wrapper {
             line-height: 1.25;
 
             h2 {
                 line-height: 1;
-                color: $color__brand-red;
+                color: $color__brand-black;
                 text-transform: uppercase;
-                font-family: $font__bold;
+                font-family: $font__black;
             }
 
             .sidebar-specials {
                 background-color: $color__brand-pink;
                 padding: 1em;
-                border-top: 2px solid $color__brand-brown;
-                border-bottom: 2px solid $color__brand-brown;
+                border-top: 2px solid $color__brand-black;
+                border-bottom: 2px solid $color__brand-black;
                 min-height: 180px;
 
                 h2 {
-                    color: $color__brand-red;
-                    font-family: $font__bold;
+                    color: $color__brand-black;
+                    font-family: $font__black;
                     text-transform: uppercase;
-                    font-size: 2.333rem;
+                    font-size: 2.267rem;
                     @include reset;
                 }
 
                 h3 {
-                    font-family: $font__semi;
+                    font-family: $font__bold;
                     font-size:  1.333rem;
+                    line-height: 1;
+                    padding-top: .25em;
                 }
 
                 h4 {
@@ -64,19 +66,19 @@
 
             .sidebar-events {
                 padding: 1em .5em;
-                border-bottom: 2px solid $color__brand-brown;
+                border-bottom: 2px solid $color__brand-black;
 
                 h2 {
                     @include reset;
-                    font-size: 2.067rem;
-                    color: $color__brand-red;
-                    font-family: $font__bold;
+                    font-size: 1.8rem;
+                    color: $color__brand-gray;
+                    font-family: $font__black;
                     text-transform: uppercase;
 
                 }
 
                 h3 {
-                    font-family: $font__semi;
+                    font-family: $font__bold;
                     font-size:  1.333rem;
                     padding: 0;
                     padding-top: .5rem;
@@ -84,9 +86,9 @@
                 }
 
                 p {
+                    font-family: $font__regular;
                     font-size: 0.9333rem;
                     line-height: 1.4;
-                    padding-right: 4em;
                 }
 
                 @include respond-to(medium) {
@@ -97,24 +99,15 @@
             }
 
             .sidebar-pets {
-                display: flex;
-                justify-content: space-around;
                 padding:1em .5em;
-                overflow: hidden;
-                border-bottom: 2px solid $color__brand-brown;
+                border-bottom: 2px solid $color__brand-black;
 
                 h2 {
                     padding-right: 5px;
-                    font-size: 2.067rem;
-                    color: $color__brand-red;
+                    font-size: 1.4rem;
+                    font-family: $font__black;
+                    color: $color__brand-gray;
                     text-transform: uppercase;
-                }
-
-                img {
-                    display: block;
-                    width: 100px;
-                    height: 100px;
-                    padding-left: 5px;
                 }
             }
 

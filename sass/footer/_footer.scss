@@ -4,11 +4,11 @@
     display: flex;
     flex-direction: column;
     @include padding-left-right;
-    background-color: $color__brand-red;
+    background-color: $color__brand-black;
     color: #fff;
     text-align: center;
     font-family: $font__regular;
-    border-bottom: 5px solid #fff;
+    // border-bottom: 5px solid #fff;
     font-size: 0.8125rem;
     padding-top: 1em;
     padding-bottom: 1em;

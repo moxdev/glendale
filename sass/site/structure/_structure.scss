@@ -35,10 +35,12 @@
                 margin-bottom: 1.1rem;
 
                 .entry-title {
-                    font-family: $font__bold;
+                    font-family: $font__light;
+                    color: $color__h1;
                     font-size: 1.533rem;
                     @include reset;
                     margin-bottom: .7rem;
+                    line-height: 1.1;
 
                     @include respond-to('small') {
                         padding-right: 1em;
@@ -116,22 +118,25 @@
         }
 
         @include respond-to('medium') {
-            border-bottom: 5px solid $color__brand-brown;
+            border-bottom: 5px solid $color__brand-pink;
         }
     }
 
     .footer-tagline {
         @include padding-left-right;
         text-align: center;
+        padding-top: .5em;
+        padding-bottom: 1em;
 
         h2 {
-            color: #fff;
-            font-family: $font__alex;
-            font-size:  2.467rem;
+            color: #000;
+            font-family: $font__light;
+            font-size:  1.533rem;
+            line-height: 1.2;
         }
 
         .lead {
-            font-size:3.667rem;
+            font-size:2.333rem;
         }
 
         @include respond-to('tablet') {

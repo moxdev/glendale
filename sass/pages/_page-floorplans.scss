@@ -23,8 +23,8 @@
         }
 
         .description {
-            color: $color__brand-red;
-            font-family: $font__bold;
+            color: $color__brand-black;
+            font-family: $font__extra-bold;
             font-size: 1.333rem;
 
             @include respond-to(medium) {
@@ -32,8 +32,8 @@
             }
         }
         .sqft {
-            font-family: $font__light;
-            font-size: 1.133rem;
+            font-family: $font__regular;
+            font-size: 1.2rem;
 
             @include respond-to(medium) {
                 font-size: 1.267rem;
@@ -44,6 +44,7 @@
         .availability-link {
             font-family: $font__regular;
             font-size: 1rem;
+            color: $color__brand-black;
 
             @include respond-to(medium) {
                 font-size: 1.2rem;
@@ -52,6 +53,8 @@
             button {
                 padding: 1em;
                 margin-top: .5em;
+                color: $color__brand-black;
+                font-size: 1rem;
             }
 
         }

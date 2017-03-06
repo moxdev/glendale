@@ -10,11 +10,13 @@
             @include padding-left-right;
             color:#FFF;
             font-size:1.733rem;
-            font-family:$font__bold;
+            font-family:$font__black;
             padding-top: 2.25em;
             padding-bottom: 2.25em;
             text-shadow:0 0 20px rgba(0, 0, 0, 1);
             text-align: center;
+            font-weight: normal;
+            letter-spacing: 1px;
 
             @include respond-to(small) {
                 font-size: 2em;
@@ -113,13 +115,14 @@
         h2 {
             color: $color__h2;
             font-family: $font__bold;
-            font-size: 3.667rem;
+            font-size: 2.667rem;
             @include reset;
+            margin-bottom: .25em;
 
             span {
-                color: $color__span;
+                color: #999999;
                 font-family: $font__regular;
-                font-size: 2.133rem;
+                font-size: 1.8rem;
             }
         }
         h3 {
@@ -127,6 +130,7 @@
             font-size: 1.4rem;
             font-family: $font__light;
             margin-bottom: 1rem;
+            line-height: 1.2;
         }
 
         @include respond-to(medium) {
