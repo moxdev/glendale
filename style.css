@@ -987,18 +987,19 @@ a[x-apple-data-detectors] {
   display: block !important;
   margin: 0;
   padding-bottom: 1em;
+  position: relative;
 }
-/* line 53, sass/navigation/_masthead.scss */
+/* line 54, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-mobile-menu-container ul li a {
   font-family: "Muli-Light", sans-serif;
   color: #fff;
   display: block !important;
   padding: 0;
   text-decoration: none;
-  font-size: 1.313rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
-/* line 62, sass/navigation/_masthead.scss */
+/* line 63, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-mobile-menu-container ul li a:before {
   content: '\25b6';
   color: #fff;
@@ -1006,11 +1007,11 @@ a[x-apple-data-detectors] {
   margin-right: 10px;
   vertical-align: middle;
 }
-/* line 70, sass/navigation/_masthead.scss */
+/* line 72, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-mobile-menu-container ul li a:hover, #masthead .toggled .menu-mobile-menu-container ul li a:visited, #masthead .toggled .menu-mobile-menu-container ul li a:active, #masthead .toggled .menu-mobile-menu-container ul li a :link {
   color: #fff;
 }
-/* line 76, sass/navigation/_masthead.scss */
+/* line 78, sass/navigation/_masthead.scss */
 #masthead .toggled .menu-mobile-menu-container ul li a ul li a {
   text-transform: capitalize;
   text-decoration: none;
@@ -1034,7 +1035,7 @@ a[x-apple-data-detectors] {
     display: none;
   }
 }
-/* line 101, sass/navigation/_masthead.scss */
+/* line 103, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1043,7 +1044,7 @@ a[x-apple-data-detectors] {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 105, sass/navigation/_masthead.scss */
+/* line 107, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .site-branding {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -1052,23 +1053,23 @@ a[x-apple-data-detectors] {
       -ms-grid-row-align: center;
       align-self: center;
 }
-/* line 109, sass/navigation/_masthead.scss */
+/* line 111, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .site-branding svg {
   max-width: 145px;
 }
 @media (min-width: 400px) {
-  /* line 109, sass/navigation/_masthead.scss */
+  /* line 111, sass/navigation/_masthead.scss */
   #masthead .masthead-wrapper .site-branding svg {
     max-width: 200px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 109, sass/navigation/_masthead.scss */
+  /* line 111, sass/navigation/_masthead.scss */
   #masthead .masthead-wrapper .site-branding svg {
     max-width: 225px;
   }
 }
-/* line 122, sass/navigation/_masthead.scss */
+/* line 124, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -1082,34 +1083,34 @@ a[x-apple-data-detectors] {
           flex-direction: column;
   position: relative;
 }
-/* line 128, sass/navigation/_masthead.scss */
+/* line 130, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .masthead-phone {
   text-align: right;
   color: #000;
   font-family: "Muli-ExtraBold", sans-serif;
   margin-bottom: 5px;
 }
-/* line 134, sass/navigation/_masthead.scss */
+/* line 136, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .masthead-phone span {
   display: none;
   margin-right: .5em;
 }
 @media (min-width: 760px) {
-  /* line 134, sass/navigation/_masthead.scss */
+  /* line 136, sass/navigation/_masthead.scss */
   #masthead .masthead-wrapper .main-navigation .masthead-phone span {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
 }
-/* line 143, sass/navigation/_masthead.scss */
+/* line 145, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .masthead-phone a {
   color: #000;
   text-decoration: none;
-  font-family: "Muli-Bold", sans-serif;
+  font-family: "Muli-ExtraBold", sans-serif;
   font-size: 1.188rem;
 }
-/* line 151, sass/navigation/_masthead.scss */
+/* line 153, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .menu-toggle {
   background-color: #999999;
   color: #fff;
@@ -1120,32 +1121,32 @@ a[x-apple-data-detectors] {
   margin-left: auto;
   padding: .5em;
 }
-/* line 162, sass/navigation/_masthead.scss */
+/* line 164, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .menu-primary-container {
   display: none;
   color: #000;
 }
-/* line 166, sass/navigation/_masthead.scss */
+/* line 168, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .menu-primary-container ul {
   list-style-type: none;
 }
-/* line 171, sass/navigation/_masthead.scss */
+/* line 173, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .menu-primary-container ul .current-menu-item a {
   color: #000;
   font-family: "Muli-Bold", sans-serif;
 }
-/* line 177, sass/navigation/_masthead.scss */
+/* line 179, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .menu-primary-container ul li {
   list-style: none;
 }
-/* line 180, sass/navigation/_masthead.scss */
+/* line 182, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .menu-primary-container ul li a {
   padding: 1.5em;
   color: #000;
   text-decoration: none;
   font-family: "Muli-Light", sans-serif;
 }
-/* line 186, sass/navigation/_masthead.scss */
+/* line 188, sass/navigation/_masthead.scss */
 #masthead .masthead-wrapper .main-navigation .menu-primary-container ul li a:before {
   content: '\25b6';
   color: #000;
@@ -1154,7 +1155,7 @@ a[x-apple-data-detectors] {
   vertical-align: middle;
 }
 @media (min-width: 560px) {
-  /* line 101, sass/navigation/_masthead.scss */
+  /* line 103, sass/navigation/_masthead.scss */
   #masthead .masthead-wrapper {
     padding-top: .5em;
   }
@@ -1172,7 +1173,7 @@ a[x-apple-data-detectors] {
   }
 }
 @media (min-width: 1200px) {
-  /* line 101, sass/navigation/_masthead.scss */
+  /* line 103, sass/navigation/_masthead.scss */
   #masthead .masthead-wrapper {
     line-height: 1.2;
   }
@@ -1893,8 +1894,8 @@ a[x-apple-data-detectors] {
   padding-left: 1.5625rem;
   padding-right: 1.5625rem;
   text-align: center;
-  padding-top: .5em;
-  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
 }
 @media (min-width: 760px) {
   /* line 125, sass/site/structure/_structure.scss */
@@ -1908,7 +1909,7 @@ a[x-apple-data-detectors] {
   color: #000;
   font-family: "Muli-Light", sans-serif;
   font-size: 1.533rem;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 /* line 138, sass/site/structure/_structure.scss */
 #page .footer-tagline .lead {
@@ -2666,22 +2667,22 @@ object {
 }
 
 /*--------------------------------------------------------------
-## Gaithersburg Page
+## lanham Page
 --------------------------------------------------------------*/
-/* line 3, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper {
+/* line 3, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper {
   display: none;
   position: relative;
   max-width: 1100px;
   margin-left: auto !important;
   margin-right: auto !important;
 }
-/* line 8, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-canvas {
+/* line 8, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-canvas {
   min-height: 500px;
 }
-/* line 12, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #reset-map {
+/* line 12, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #reset-map {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -2694,16 +2695,16 @@ object {
   font-size: 1rem;
   padding: .5em 1em;
 }
-/* line 24, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #reset-map.active {
+/* line 24, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #reset-map.active {
   opacity: 1;
 }
-/* line 29, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav {
+/* line 29, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav {
   background-color: #cccccc;
 }
-/* line 31, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav ul {
+/* line 31, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2715,8 +2716,8 @@ object {
   overflow: hidden;
   margin-right: -1px;
 }
-/* line 38, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav ul li {
+/* line 38, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav ul li {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -2731,8 +2732,8 @@ object {
           justify-content: center;
   border-right: 1px solid #fff;
 }
-/* line 47, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav ul li a {
+/* line 47, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav ul li a {
   color: #000000;
   text-transform: uppercase;
   font-family: "Muli-Regular", sans-serif;
@@ -2754,31 +2755,31 @@ object {
           justify-content: center;
   padding: .5em 0;
 }
-/* line 61, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav ul li a:before {
+/* line 61, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav ul li a:before {
   display: block;
   text-align: center;
 }
-/* line 66, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav ul li a:active, .page-template-page-gaithersburg #map-wrapper #map-nav ul li a:focus, .page-template-page-gaithersburg #map-wrapper #map-nav ul li a.active {
+/* line 66, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav ul li a:active, .page-template-page-lanham #map-wrapper #map-nav ul li a:focus, .page-template-page-lanham #map-wrapper #map-nav ul li a.active {
   background-image: none;
   outline: 0;
   box-shadow: none;
 }
-/* line 80, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav .recreation a:before {
+/* line 80, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav .recreation a:before {
   content: url("imgs/recreation-50.png");
 }
-/* line 89, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav .restaurants a:before {
+/* line 89, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav .restaurants a:before {
   content: url("imgs/restaurants-40.png");
 }
-/* line 97, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg #map-wrapper #map-nav .shopping a:before {
+/* line 97, sass/pages/_page-lanham.scss */
+.page-template-page-lanham #map-wrapper #map-nav .shopping a:before {
   content: url("imgs/shopping-50.png");
 }
-/* line 105, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg .community-listing-header {
+/* line 105, sass/pages/_page-lanham.scss */
+.page-template-page-lanham .community-listing-header {
   color: #999999;
   font-size: 1.333rem;
   font-family: "Muli-Black", sans-serif;
@@ -2786,33 +2787,33 @@ object {
   margin-top: 1.5em;
   margin-bottom: .5em;
 }
-/* line 114, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg .community-listing {
+/* line 114, sass/pages/_page-lanham.scss */
+.page-template-page-lanham .community-listing {
   padding: 0;
   margin: 0;
   font-family: "Muli-Light", sans-serif;
 }
-/* line 118, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg .community-listing li {
+/* line 118, sass/pages/_page-lanham.scss */
+.page-template-page-lanham .community-listing li {
   list-style-type: none;
   margin-bottom: 2em;
 }
-/* line 122, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg .community-listing li .comm-name {
+/* line 122, sass/pages/_page-lanham.scss */
+.page-template-page-lanham .community-listing li .comm-name {
   font-size: 0.9333rem;
   color: #333;
   font-family: "Muli-Bold", sans-serif;
 }
-/* line 128, sass/pages/_page-gaithersburg.scss */
-.page-template-page-gaithersburg .community-listing li a {
+/* line 128, sass/pages/_page-lanham.scss */
+.page-template-page-lanham .community-listing li a {
   color: inherit;
   font-size: 0.9333rem;
   -webkit-text-decoration-color: #999999;
           text-decoration-color: #999999;
 }
 @media (min-width: 400px) {
-  /* line 137, sass/pages/_page-gaithersburg.scss */
-  .page-template-page-gaithersburg .landmark-inner-wrapper {
+  /* line 137, sass/pages/_page-lanham.scss */
+  .page-template-page-lanham .landmark-inner-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2822,20 +2823,20 @@ object {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  /* line 142, sass/pages/_page-gaithersburg.scss */
-  .page-template-page-gaithersburg .landmark-inner-wrapper .community-listing-wrapper {
+  /* line 142, sass/pages/_page-lanham.scss */
+  .page-template-page-lanham .landmark-inner-wrapper .community-listing-wrapper {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 50%;
             flex: 1 0 50%;
   }
 }
 @media (min-width: 960px) {
-  /* line 149, sass/pages/_page-gaithersburg.scss */
-  .page-template-page-gaithersburg #map-wrapper {
+  /* line 149, sass/pages/_page-lanham.scss */
+  .page-template-page-lanham #map-wrapper {
     display: block;
   }
-  /* line 153, sass/pages/_page-gaithersburg.scss */
-  .page-template-page-gaithersburg #landmark-listing {
+  /* line 153, sass/pages/_page-lanham.scss */
+  .page-template-page-lanham #landmark-listing {
     display: none;
   }
 }
@@ -2963,75 +2964,77 @@ object {
 }
 /* line 10, sass/pages/_page-contact.scss */
 .page-template-page-contact form input, .page-template-page-contact form textarea {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #999999;
   width: 100%;
   margin-bottom: 1em;
-  color: #dedede;
+  color: #999999;
 }
 /* line 16, sass/pages/_page-contact.scss */
 .page-template-page-contact form input:focus, .page-template-page-contact form textarea:focus {
   outline: none;
-  border: 1px solid #408b40;
+  border: 1px solid #c8e3dc;
   box-shadow: none;
 }
 /* line 24, sass/pages/_page-contact.scss */
 .page-template-page-contact form input[type="submit"] {
-  background-color: #408b40;
-  color: #fff;
-  font-size: 1.067rem;
+  background-color: #c8e3dc;
+  color: #000;
+  font-size: .9rem;
   padding: .7em 1em;
   font-family: "Muli-Bold", sans-serif;
   text-transform: uppercase;
+  border: none;
 }
-/* line 36, sass/pages/_page-contact.scss */
+/* line 37, sass/pages/_page-contact.scss */
 .page-template-page-contact .entry-content form input[type="submit"] {
   width: 90%;
 }
-/* line 44, sass/pages/_page-contact.scss */
+/* line 45, sass/pages/_page-contact.scss */
 .page-template-page-contact .map-wrapper form input[type="submit"] {
   width: 60%;
 }
-/* line 52, sass/pages/_page-contact.scss */
+/* line 53, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper {
   margin-bottom: 2em;
 }
-/* line 55, sass/pages/_page-contact.scss */
+/* line 56, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper a {
   text-decoration: none;
-  color: #c8e3dc;
+  font-family: "Muli-Bold", sans-serif;
+  color: #333;
 }
-/* line 59, sass/pages/_page-contact.scss */
+/* line 61, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper a:hover, .page-template-page-contact #page .site-content .content-wrapper a:active, .page-template-page-contact #page .site-content .content-wrapper a:focus {
-  color: #dcc8b6;
+  color: #333;
 }
-/* line 63, sass/pages/_page-contact.scss */
+/* line 65, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper a:visited {
-  color: #c8e3dc;
+  color: #333;
 }
-/* line 68, sass/pages/_page-contact.scss */
+/* line 70, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #primary {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
 }
-/* line 73, sass/pages/_page-contact.scss */
+/* line 75, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper .company-information-section, .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper .hours-section {
-  font-family: "SourceSansPro-Semibold", sans-serif;
-  font-size: 1.2rem;
+  font-family: "Muli-Bold", sans-serif;
+  font-size: 1.133rem;
   line-height: 1.1;
 }
 @media (min-width: 960px) {
-  /* line 73, sass/pages/_page-contact.scss */
+  /* line 75, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper .company-information-section, .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper .hours-section {
     font-size: 1.333rem;
   }
 }
-/* line 83, sass/pages/_page-contact.scss */
+/* line 85, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper .hours-section {
   margin: 1em 0;
 }
 @media (min-width: 760px) {
-  /* line 71, sass/pages/_page-contact.scss */
+  /* line 73, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3048,72 +3051,72 @@ object {
   }
 }
 @media (min-width: 760px) and (min-width: 960px) {
-  /* line 71, sass/pages/_page-contact.scss */
+  /* line 73, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper {
     max-width: 500px;
   }
 }
 @media (min-width: 760px) {
-  /* line 99, sass/pages/_page-contact.scss */
+  /* line 101, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #primary .contact-info-wrapper .hours-section {
     margin: 0;
   }
 }
 @media (min-width: 760px) {
-  /* line 110, sass/pages/_page-contact.scss */
+  /* line 112, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #primary .entry-content form input[type="submit"] {
     max-width: 250px;
   }
 }
 @media (min-width: 760px) and (min-width: 960px) {
-  /* line 110, sass/pages/_page-contact.scss */
+  /* line 112, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #primary .entry-content form input[type="submit"] {
     max-width: 275px;
   }
 }
 
-/* line 122, sass/pages/_page-contact.scss */
+/* line 124, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #secondary {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
-/* line 125, sass/pages/_page-contact.scss */
+/* line 127, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #secondary .map-wrapper {
   margin-bottom: 1rem;
 }
-/* line 128, sass/pages/_page-contact.scss */
+/* line 130, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #secondary .map-wrapper #map-canvas {
   min-width: 200px;
   min-height: 200px;
 }
-/* line 134, sass/pages/_page-contact.scss */
+/* line 136, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #secondary .map-wrapper form label {
-  color: #000000;
+  color: #999999;
   text-transform: uppercase;
   font-size: 1.25rem;
-  font-family: "Muli-Bold", sans-serif;
+  font-family: "Muli-ExtraBold", sans-serif;
 }
-/* line 139, sass/pages/_page-contact.scss */
+/* line 141, sass/pages/_page-contact.scss */
 .page-template-page-contact #page .site-content .content-wrapper #secondary .map-wrapper form label input {
   font-family: "Muli-Light", sans-serif;
 }
 @media (min-width: 760px) {
-  /* line 122, sass/pages/_page-contact.scss */
+  /* line 124, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #secondary {
     padding-top: 1em;
   }
-  /* line 149, sass/pages/_page-contact.scss */
+  /* line 151, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #secondary .map-wrapper {
     margin-bottom: 2em;
   }
-  /* line 154, sass/pages/_page-contact.scss */
+  /* line 156, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #secondary .map-wrapper form input[type="submit"] {
     max-width: 150px;
   }
 }
 @media (min-width: 760px) and (min-width: 960px) {
-  /* line 154, sass/pages/_page-contact.scss */
+  /* line 156, sass/pages/_page-contact.scss */
   .page-template-page-contact #page .site-content .content-wrapper #secondary .map-wrapper form input[type="submit"] {
     max-width: 175px;
   }
@@ -3176,9 +3179,9 @@ object {
   color: #fff;
   text-align: center;
   font-family: "Muli-Regular", sans-serif;
-  font-size: 0.8125rem;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 0.8rem;
+  padding-top: 2em;
+  padding-bottom: 2em;
   line-height: 1.25;
 }
 @media (min-width: 760px) {
@@ -3191,9 +3194,9 @@ object {
 /* line 17, sass/footer/_footer.scss */
 .footer-wrapper h2 {
   color: #fff;
-  font-size: 1.063rem;
-  margin-bottom: 0;
-  font-family: "Muli-Bold", sans-serif;
+  font-size: 1.133rem;
+  margin-bottom: .25em;
+  font-family: "Muli-ExtraBold", sans-serif;
 }
 @media (min-width: 760px) {
   /* line 17, sass/footer/_footer.scss */

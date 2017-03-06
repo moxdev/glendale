@@ -8,26 +8,27 @@
         display: block;
 
         input, textarea {
-            border: 1px solid #e5e5e5;
+            border: 1px solid $color__brand-gray;
             width: 100%;
             margin-bottom: 1em;
-            color: #dedede;
+            color: $color__brand-gray;
 
             &:focus {
                 outline: none;
-                border: 1px solid #408b40;
+                border: 1px solid $color__brand-seagreen;
                 -webkit-box-shadow: none;
                 box-shadow: none;
             }
         }
 
         input[type="submit"] {
-            background-color: #408b40;
-            color: #fff;
-            font-size: 1.067rem;
+            background-color: $color__brand-seagreen;
+            color: #000;
+            font-size: .9rem;
             padding: .7em 1em;
             font-family: $font__bold;
             text-transform: uppercase;
+            border: none;
         }
     }
 
@@ -54,14 +55,15 @@
 
                 a {
                     text-decoration: none;
-                    color: $color__brand-seagreen;
+                    font-family: $font__bold;
+                    color: #333;
 
                     &:hover, &:active, &:focus {
-                        color: $color__brand-pink;
+                        color: #333;
                     }
 
                     &:visited {
-                        color: $color__brand-seagreen;
+                        color: #333;
                     }
                 }
 
@@ -71,8 +73,8 @@
                     .contact-info-wrapper {
 
                         .company-information-section, .hours-section {
-                            font-family: $font__semi;
-                            font-size: 1.2rem;
+                            font-family: $font__bold;
+                            font-size: 1.133rem;
                             line-height: 1.1;
 
                             @include respond-to(medium) {
@@ -132,10 +134,10 @@
 
                         form {
                             label {
-                                color: $color__brand-black;
+                                color: $color__brand-gray;
                                 text-transform: uppercase;
                                 font-size: 1.25rem;
-                                font-family: $font__bold;
+                                font-family: $font__extra-bold;
                                 input {
                                     font-family: $font__light;
                                 }

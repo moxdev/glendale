@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Gaithersburg
+ * Template Name: Lanham, MD
  * Template Post Type: page
  *
  * @link https://codex.wordpress.org/Template_Hierarchy

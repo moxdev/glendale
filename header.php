@@ -74,7 +74,7 @@
 		    glendale_featured_image();
 		}
 
-		if( is_page_template( 'page-gaithersburg.php' ) && function_exists('mm4_area_map') ) {
+		if( is_page_template( 'page-lanham.php' ) && function_exists('mm4_area_map') ) {
 			mm4_area_map();
 		}
 
