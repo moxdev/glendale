@@ -55,9 +55,9 @@
             @media screen and (min-width:1440px) {
                 padding-top: 2.5em;
                 padding-bottom: 2.5em;
-                font-size: 4em;
-                padding-left: 3em;
-                padding-right: 3em;
+                font-size: 4.75em;
+                padding-left: 2em;
+                padding-right: 2em;
             }
         }
 
@@ -74,10 +74,13 @@
                 #primary {
 
                     @include respond-to(medium) {
-                        padding-left: 4.5em;
+                        padding-left: 4em;
                         margin-top: 0;
                         margin-bottom: 0;
-                        // padding-right: 2em;
+                    }
+
+                    @include respond-to(large) {
+                        padding-left: 5em;
                     }
                 }
             }
@@ -88,23 +91,16 @@
 
         @include respond-to(medium) {
             background-image: url(imgs/deco-background.svg);
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
             background-attachment: scroll;
-            background-position: -5px -290px;
-            background-size: auto 170%;
-            margin-bottom: -20px;
+            background-size: auto 20%;
+            background-position: left 1em top;
         }
-
-        // @media screen and (min-width:1020px) {
-        //     background-position: 20px -180px;
-        //     background-size: auto 110%;
-        // }
 
         @include respond-to(large) {
             padding-left: 0;
             padding-right: 0;
-            background-position: 0px -224px;
-            background-size: auto 170%;
+            background-size: auto 40%;
         }
     }
 
@@ -137,15 +133,15 @@
             text-align: left;
 
             h2 {
-                font-size: 6.333rem;
+                font-size: 4.4rem;
 
                 span {
-                    font-size: 3.667rem;
+                    font-size:  3.067rem;
                 }
             }
 
             h3 {
-                font-size: 2.733rem;
+                font-size: 2.2rem;
             }
         }
 

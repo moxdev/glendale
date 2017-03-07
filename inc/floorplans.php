@@ -76,7 +76,7 @@ function glendale_floorplan_listing() { ?>
 
                             <div class="fp-models-wrapper">
 
-                            <?php while ( have_rows('one_bedroom_floor_plans', 'options') ) : the_row();
+                            <?php while ( have_rows('two_bedroom_floor_plans', 'options') ) : the_row();
 
                                 $desc    = get_sub_field('description', 'options');
                                 $sqft    = get_sub_field('square_footage', 'options');
@@ -128,7 +128,7 @@ function glendale_floorplan_listing() { ?>
 
                             <div class="fp-models-wrapper">
 
-                            <?php while ( have_rows('one_bedroom_floor_plans', 'options') ) : the_row();
+                            <?php while ( have_rows('three_bedroom_floor_plans', 'options') ) : the_row();
 
                                 $desc    = get_sub_field('description', 'options');
                                 $sqft    = get_sub_field('square_footage', 'options');

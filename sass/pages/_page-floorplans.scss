@@ -6,6 +6,7 @@
         // @include max-width(1100px);
 
         .view-btn {
+            display: none;
             text-transform: uppercase;
             font-size: 1.133rem;
             font-family: $font__regular;
@@ -28,7 +29,7 @@
             font-size: 1.333rem;
 
             @include respond-to(medium) {
-                font-size: 1.456rem;
+                font-size: 1.533rem;
             }
         }
         .sqft {
@@ -47,11 +48,11 @@
             color: $color__brand-black;
 
             @include respond-to(medium) {
-                font-size: 1.2rem;
+                font-size: 1.133rem;
             }
 
             button {
-                padding: 1em;
+                padding: .75em 1em;
                 margin-top: .5em;
                 color: $color__brand-black;
                 font-size: 1rem;
@@ -62,7 +63,7 @@
         .floorplans-wrapper {
 
             .view-hide-wrapper {
-                display: none;
+                display: block;
 
                 @include respond-to(medium) {
                     display: block !important;

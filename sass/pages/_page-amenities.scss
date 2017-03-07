@@ -76,6 +76,7 @@
         padding: 1em;
         overflow: hidden;
         display: flex;
+        flex-wrap:wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -90,6 +91,10 @@
         .view {
             position: relative;
             z-index: 5;
+        }
+
+        span {
+            max-width: 100%;
         }
 
         img {
@@ -177,9 +182,12 @@
         font-size: .9rem;
         line-height: 1.1;
         font-family: $font__regular;
+        max-width: 100%;
+        -ms-flex: 1 0 auto;
+        flex: 0 1 auto;
 
-        @include respond-to(medium) {
-            font-size: 1.667rem;
+        @include respond-to(large) {
+            font-size: 1.533rem;
         }
     }
 
@@ -194,6 +202,7 @@
     // for equal spacing of text inside highlight
     .hide-btn {
         visibility: hidden;
+        // display: none;
     }
 
     .disclaimer {

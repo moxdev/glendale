@@ -47,11 +47,11 @@
             margin-top: 2em;
             text-decoration: none;
             padding: .5em 1em;
-            font-family: $font__regular;
+            font-family: $font__bold;
             background: $color__background-button;
             color: $color__button;
             line-height: 1;
-            font-size: 15px;
+            font-size: 1rem;
         }
 
         @include respond-to('tablet') {

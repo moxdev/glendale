@@ -48,12 +48,12 @@
             @include respond-to('medium') {
 
                 h2 {
-                    font-size:  3.2rem;
+                    font-size:  2.933rem;
                     line-height: .9;
                 }
 
                 h3 {
-                    font-size: 1.467rem;
+                    font-size: 1.333rem;
                     line-height: 1.2;
                 }
             }
@@ -61,19 +61,19 @@
 
         .sidebar-events {
             padding: 1em .5em;
-            border-bottom: 2px solid $color__brand-seagreen;
+            border-bottom: 2px solid $color__brand-black;
 
             h2 {
                 @include reset;
-                font-size: 2.067rem;
-                color: $color__brand-black;
-                font-family: $font__bold;
+                font-size: 1.8rem;
+                color: $color__brand-gray;
+                font-family: $font__black;
                 text-transform: uppercase;
 
             }
 
             h3 {
-                font-family: $font__semi;
+                font-family: $font__bold;
                 font-size:  1.333rem;
                 padding: 0;
                 padding-top: .5rem;
@@ -81,38 +81,40 @@
             }
 
             p {
+                font-family: $font__regular;
                 font-size: 0.9333rem;
                 line-height: 1.4;
             }
 
             @include respond-to(medium) {
+                h2 {
+                    font-size: 2.267rem;
+                }
+
+                h3 {
+                    font-size: 1.4rem;
+                }
+
                 p {
-                    font-size: 1rem;
+                    font-size: 1.067rem;
                 }
             }
         }
 
         .sidebar-pets {
-            display: flex;
-            justify-content: space-around;
             padding:1em .5em;
-            overflow: hidden;
-            border-bottom: 2px solid $color__brand-seagreen;
+            border-bottom: 2px solid $color__brand-black;
 
             h2 {
-                flex: 2 0 50%;
                 padding-right: 5px;
-                font-size: 2.067rem;
-                color: $color__brand-black;
+                font-size: 1.4rem;
+                font-family: $font__black;
+                color: $color__brand-gray;
                 text-transform: uppercase;
-            }
 
-            img {
-                flex: 1 0 50%;
-                display: block;
-                max-width: 100px;
-                max-height: 100px;
-                padding-left: 5px;
+                @include respond-to(medium) {
+                    font-size: 1.667rem;
+                }
             }
         }
 
@@ -131,10 +133,6 @@
 
             .sidebar-pets {
                 width: 50%;
-
-                h2 {
-                    margin: 0;
-                }
             }
         }
 
@@ -151,6 +149,5 @@
                 width: 100%;
             }
         }
-
     }
 }

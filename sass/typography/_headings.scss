@@ -35,13 +35,17 @@ h2 {
 
     &:before {
         top: 11px ;
+
+        @include respond-to(medium) {
+            top:16px;
+        }
     }
 
     &:after {
         bottom: 10px;
 
         @include respond-to(medium) {
-            bottom: 28px;
+            bottom: 11px;
         }
     }
 
@@ -58,7 +62,7 @@ h2 {
         z-index: 5;
 
         @include respond-to(medium) {
-            font-size: 3.667rem;
+            font-size: 2.467rem;
         }
     }
 }

@@ -2,10 +2,10 @@
 
     #secondary {
         background-image: url(imgs/deco-background.svg);
-        background-repeat: no-repeat;
-        // background-attachment: local;
-        background-position: 97%;
-        background-size: 35%;
+        background-repeat: repeat-y;
+        background-attachment: scroll;
+        background-position: right 100%;
+        background-size: 82px 53%;
 
         .sidebar-wrapper {
             line-height: 1.25;
@@ -53,12 +53,12 @@
                 @include respond-to('medium') {
 
                     h2 {
-                        font-size:  3.2rem;
+                        font-size:  2.933rem;
                         line-height: .9;
                     }
 
                     h3 {
-                        font-size: 1.467rem;
+                        font-size: 1.333rem;
                         line-height: 1.2;
                     }
                 }
@@ -92,8 +92,16 @@
                 }
 
                 @include respond-to(medium) {
+                    h2 {
+                        font-size: 2.267rem;
+                    }
+
+                    h3 {
+                        font-size: 1.4rem;
+                    }
+
                     p {
-                        font-size: 1rem;
+                        font-size: 1.067rem;
                     }
                 }
             }
@@ -104,10 +112,15 @@
 
                 h2 {
                     padding-right: 5px;
+                    line-height: 1.1;
                     font-size: 1.4rem;
                     font-family: $font__black;
                     color: $color__brand-gray;
                     text-transform: uppercase;
+
+                    @include respond-to(medium) {
+                        font-size: 1.667rem;
+                    }
                 }
             }
 
@@ -146,7 +159,6 @@
 
 
         @include respond-to(small) {
-            background-position: 95% -94px;
             .sidebar-wrapper {
                 .sidebar-events {
 
@@ -162,7 +174,6 @@
         }
 
         @include respond-to(small-land) {
-            background-position: 95% -188px;
             .sidebar-wrapper {
                 .sidebar-events {
 

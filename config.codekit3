@@ -7,7 +7,7 @@
 		"uuidString": "C5097D6A-BC8F-4074-8E91-EC45A728ECC9"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/*project\/notes.html": {
 		"ft": 8192,
@@ -538,6 +538,14 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/imgs\/200_Allconnect_2015_logo.png": {
+		"ft": 32768,
+		"iS": 7744,
+		"oA": 0,
+		"oAP": "\/imgs\/200_Allconnect_2015_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/cat-4.png": {
 		"ft": 32768,
 		"iS": 2223,
@@ -572,6 +580,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/EClogo.png": {
+		"ft": 32768,
+		"iS": 30337,
+		"oA": 0,
+		"oAP": "\/imgs\/EClogo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/logo-200.png": {
+		"ft": 32768,
+		"iS": 20695,
+		"oA": 0,
+		"oAP": "\/imgs\/logo-200.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/logo-300.png": {
+		"ft": 32768,
+		"iS": 33228,
+		"oA": 0,
+		"oAP": "\/imgs\/logo-300.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/logo.png": {
+		"ft": 32768,
+		"iS": 21342,
+		"oA": 0,
+		"oAP": "\/imgs\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -581,6 +621,30 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/imgs\/pay-rent-online-200.png": {
+		"ft": 32768,
+		"iS": 2861,
+		"oA": 0,
+		"oAP": "\/imgs\/pay-rent-online-200.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/pay-rent-online-300.png": {
+		"ft": 32768,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/imgs\/pay-rent-online-300.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/pay-rent-online.png": {
+		"ft": 32768,
+		"iS": 33633,
+		"oA": 0,
+		"oAP": "\/imgs\/pay-rent-online.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/imgs\/recreation-50.png": {
 		"ft": 32768,
@@ -1952,13 +2016,13 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 1,
+		"oS": 3,
 		"uL": 0
 		},
 	"\/sass\/typography\/_copy.scss": {
@@ -2071,7 +2135,7 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/search.php": {
 		"ft": 8192,
@@ -3036,6 +3100,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -3364,6 +3432,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -3457,6 +3529,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
