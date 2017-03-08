@@ -8,31 +8,24 @@
     color: #fff;
     text-align: center;
     font-family: $font__regular;
-    // border-bottom: 5px solid #fff;
     font-size: 0.8rem;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    line-height: 1.25;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 120%;
 
     h2 {
+        font-family: $font__extra-bold;
         color: #fff;
         font-size: 1.133rem;
         margin-bottom: .25em;
-        font-family: $font__extra-bold;
-
-        @include respond-to('tablet') {
-            font-size: 1.2em;
-            line-height: 1.5
-        }
     }
 
     .contact-section {
 
-        .contact-wrapper {
-            .contact-numbers {
-                padding-top: 1em;
-            }
+        .contact-numbers {
+            padding-top: 1em;
         }
+
         .hours {
             margin-top: 1em;
 
@@ -46,30 +39,35 @@
             text-transform: uppercase;
             margin-top: 2em;
             text-decoration: none;
-            padding: .5em 1em;
+            padding: 1em;
             font-family: $font__bold;
             background: $color__background-button;
             color: $color__button;
             line-height: 1;
-            font-size: 1rem;
+            font-size: .7rem;
         }
 
         @include respond-to('tablet') {
             max-width: 400px;
             flex: 1;
-            // margin: auto;
             text-align: left;
             display: flex;
             justify-content: space-between;
 
             .resident-button {
                 display: block;
+
+                @include respond-to(medium) {
+                    font-size: 1rem;
+                    padding: .5em 1em;
+                }
             }
         }
     }
 
     .icons-section {
-        margin-top: 2em;
+        margin-top: 1.5em;
+
         .social {
             h2 {
                 margin-bottom: .5em;
@@ -100,24 +98,6 @@
 
         }
 
-        .translate {
-            margin-top: 1.5em;
-
-        }
-
-        .mm4 {
-            margin-top: 1.5em;
-            margin-bottom: 1.5em;
-            font-size: 0.75rem;
-
-            a {
-                text-decoration: none;
-                color: #fff;
-                font-family: $font__light;
-            }
-
-        }
-
         @include respond-to('tablet') {
             flex: 1;
             margin: auto;
@@ -125,13 +105,25 @@
         }
     }
 
+    .translate {
+        margin-top: 1.5em;
+    }
+
+    .mm4 {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        font-size: 0.75rem;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: $font__light;
+        }
+    }
+
     @include respond-to('tablet') {
         border-top: 5px solid #fff;
         flex-direction: row;
         padding-bottom: 2.5em;
-    }
-
-    @include respond-to('large') {
-        font-size: 1em;
     }
 } // site-footer

@@ -8,14 +8,14 @@
         h1 {
             @include reset;
             @include padding-left-right;
-            color:#FFF;
-            font-size:1.733rem;
             font-family:$font__black;
+            font-size:2rem;
+            color:#FFF;
+            line-height: 1;
             padding-top: 2.25em;
             padding-bottom: 2.25em;
             text-shadow:0 0 20px rgba(0, 0, 0, 1);
             text-align: center;
-            font-weight: normal;
             letter-spacing: 1px;
 
             @include respond-to(small) {
@@ -105,35 +105,35 @@
     }
 
     .entry-header {
-        line-height: 1;
         text-align: center;
-        @include reset;
+        padding-top: .5em;
+
         h2 {
             color: $color__h2;
             font-family: $font__bold;
             font-size: 2.667rem;
+            line-height: .9;
             @include reset;
-            margin-bottom: .25em;
 
             span {
-                color: #999999;
+                color: $color__brand-gray;
                 font-family: $font__regular;
                 font-size: 1.8rem;
             }
         }
         h3 {
-            @include reset;
-            font-size: 1.4rem;
             font-family: $font__light;
-            margin-bottom: 1rem;
-            line-height: 1.2;
+            font-size: 1.4rem;
+            line-height: 115%;
+            @include reset;
+            margin: .25em 0 1em;
         }
 
         @include respond-to(medium) {
             text-align: left;
 
             h2 {
-                font-size: 4.4rem;
+                font-size: 4.333rem;
 
                 span {
                     font-size:  3.067rem;
@@ -141,14 +141,9 @@
             }
 
             h3 {
-                font-size: 2.2rem;
+                font-size: 2.333rem;
+                margin-bottom: .75em;
             }
         }
-
-        // @include respond-to(medium) {
-        //     h3 {
-        //         font-size: 2.563rem;
-        //     }
-        // }
     }
 }

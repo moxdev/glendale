@@ -81,7 +81,7 @@
                         </div><!-- itemscope -->
 
                         <!-- <a class="resident-button" href="#"><button>for residents &raquo;</button></a> -->
-                        <a class="resident-button" href="<?php echo esc_url( get_permalink( get_page_by_title( 'Residents Corner' ) ) ); ?>"><?php esc_html_e( 'Residents Corner &raquo;', 'textdomain' ); ?></a>
+                        <a class="resident-button" href="<?php echo esc_url( get_permalink( get_page_by_title( 'Residents Corner' ) ) ); ?>"><?php esc_html_e( 'For Residents &raquo;', 'textdomain' ); ?></a>
 
                     </div><!-- contact-wrapper-->
 

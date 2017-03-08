@@ -770,12 +770,6 @@
 		"oAP": "\/inc\/features-amenities.php",
 		"oF": 0
 		},
-	"\/inc\/floorplans-2.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/floorplans-2.php",
-		"oF": 0
-		},
 	"\/inc\/floorplans.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -792,6 +786,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/header-example.php",
+		"oF": 0
+		},
+	"\/inc\/homepage-sidebar-backup.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/homepage-sidebar-backup.php",
 		"oF": 0
 		},
 	"\/inc\/homepage-sidebar.php": {

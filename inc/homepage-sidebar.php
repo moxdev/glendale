@@ -5,71 +5,98 @@
  * @package The Glendale
  */
 
-function glendale_homepage_sidebar() {
-    // check if the flexible content field has rows of data
-    if( have_rows('homepage_sidebar') ): ?>
-        <div class="sidebar-wrapper">
-            <?php while ( have_rows('homepage_sidebar') ) : the_row();
+function glendale_homepage_sidebar() { ?>
 
-                if( get_row_layout() == 'sidebar_specials' ):
+    <div class="sidebar-wrapper">
 
-                    $sp_h2 = get_sub_field('specials_heading');
-                    $sp_h3 = get_sub_field('specials_subheading');
-                    $sp_disclaimer = get_sub_field('specials_disclaimer'); ?>
+    <?php if( have_rows('specials_sidebar', 'options') ):
 
-                    <div class="sidebar-specials">
-                        <?php if( !empty($sp_h2) ): ?>
-                            <h2 class="header"><?php echo $sp_h2; ?></h2>
-                        <?php endif; ?>
+        while ( have_rows('specials_sidebar', 'options') ) : the_row();
 
-                        <?php if( !empty($sp_h3) ): ?>
-                            <h3 class="subheader"><?php echo $sp_h3; ?></h3>
-                        <?php endif; ?>
+            if( get_row_layout() == 'sidebar_specials' ):
 
-                        <?php if( !empty($sp_disclaimer) ): ?>
-                            <h4 class="disclaimer"><?php echo $sp_disclaimer; ?></h4>
-                        <?php endif; ?>
-                    </div>
+                $sp_h2 = get_sub_field('specials_heading', 'options');
+                $sp_h3 = get_sub_field('specials_subheading', 'options');
+                $sp_disclaimer = get_sub_field('specials_disclaimer', 'options'); ?>
 
-                <?php elseif( get_row_layout() == 'sidebar_event' ):
+                <div class="sidebar-specials">
 
-                    $ev_h2 = get_sub_field('event_heading');
-                    $ev_h3 = get_sub_field('event_subheading');
-                    $ev_text = get_sub_field('event_information'); ?>
+                    <?php if( !empty($sp_h2) ): ?>
+                        <h2 class="header"><?php echo $sp_h2; ?></h2>
+                    <?php endif; ?>
 
-                    <div class="sidebar-events">
-                        <?php if( !empty($ev_h2 ) ): ?>
-                            <h2 class="header"><?php echo $ev_h2; ?></h2>
-                        <?php endif; ?>
+                    <?php if( !empty($sp_h3) ): ?>
+                        <h3 class="subheader"><?php echo $sp_h3; ?></h3>
+                    <?php endif; ?>
 
-                        <?php if( !empty($ev_h3 ) ): ?>
-                            <h3 class="sub-header"><?php echo $ev_h3; ?></h3>
-                        <?php endif; ?>
+                    <?php if( !empty($sp_disclaimer) ): ?>
+                        <h4 class="disclaimer"><?php echo $sp_disclaimer; ?></h4>
+                    <?php endif; ?>
 
-                        <?php if( !empty($ev_text ) ): ?>
-                            <p><?php echo $ev_text; ?></p>
-                        <?php endif; ?>
-                    </div>
+                </div>
 
-                <?php elseif( get_row_layout() == 'sidebar_pet_friendly' ):
+            <?php endif;
 
-                    $pf_h2 = get_sub_field('pet_friendly_heading');
-                    $pf_image = get_sub_field('pet_friendly_image'); ?>
+        endwhile; ?>
 
-                    <div class="sidebar-pets">
-                        <?php if( !empty($pf_h2) ): ?>
-                            <h2 class="header"><?php echo $pf_h2; ?></h2>
-                        <?php endif; ?>
+    <?php endif; ?>
 
-                        <?php if( !empty($pf_image) ): ?>
-                            <img src="<?php echo $pf_image['sizes']['sidebar-image']; ?>" alt="<?php echo $pf_image['alt']; ?>">
-                        <?php endif; ?>
-                    </div>
+    <?php if( have_rows('homepage_sidebar') ):
 
-                <?php endif;
+        while ( have_rows('homepage_sidebar') ) : the_row();
 
-            endwhile; ?>
+            if( get_row_layout() == 'homepage_event' ):
 
-        </div> <!-- .sidebar-wrapper -->
-    <?php endif;
+                $ev_h2 = get_sub_field('event_heading');
+                $ev_h3 = get_sub_field('event_subheading');
+                $ev_text = get_sub_field('event_information'); ?>
+
+                <div class="homepage-events">
+
+                    <?php if( !empty($ev_h2 ) ): ?>
+                        <h2 class="header"><?php echo $ev_h2; ?></h2>
+                    <?php endif; ?>
+
+                    <?php if( !empty($ev_h3 ) ): ?>
+                        <h3 class="sub-header"><?php echo $ev_h3; ?></h3>
+                    <?php endif; ?>
+
+                    <?php if( !empty($ev_text ) ): ?>
+                        <p><?php echo $ev_text; ?></p>
+                    <?php endif; ?>
+
+                </div>
+
+            <?php elseif( get_row_layout() == 'homepage_announcement' ):
+
+                $pf_h2 = get_sub_field('announcement_heading');
+                $pf_image = get_sub_field('announcement_image'); ?>
+
+                <div class="homepage-announcements">
+                    <?php if( !empty($pf_h2) ): ?>
+                        <h2 class="header"><?php echo $pf_h2; ?></h2>
+                    <?php endif; ?>
+
+                    <?php if( !empty($pf_image) ): ?>
+                        <img src="<?php echo $pf_image['sizes']['sidebar-image']; ?>" alt="<?php echo $pf_image['alt']; ?>">
+                    <?php endif; ?>
+                </div>
+
+            <?php endif;
+
+        endwhile; ?>
+
+    <?php endif; ?>
+
+    </div> <!-- .sidebar-wrapper -->
+
+    <?php
 }
+
+
+
+
+
+
+
+
