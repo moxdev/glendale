@@ -11,16 +11,17 @@
 
 ?>
         </div><!-- .content-wrapper -->
-        <!-- // Displays the Features and Amenities sections if they exist -->
 
+        <!-- // Displays the Features and Amenities sections if they exist -->
         <?php if (is_page_template( 'page-amenities.php' ) && function_exists( 'glendale_features_amenities' ) ) { ?>
             <div class="feature-amenities-wrapper">
                 <?php echo glendale_features_amenities(); ?>
             </div>
         <?php } ?>
 
-        <?php if (is_page_template( 'page-floorplans.php' ) && function_exists( 'glendale_floorplan_listing' ) ) {
-            glendale_floorplan_listing();
+        <!-- // Displays the Floor Plans sections if they exist-->
+        <?php if (is_page_template( 'page-floorplans.php' ) && function_exists( 'glendale_floorplan_section' ) ) {
+            glendale_floorplan_section();
         } ?>
 
 	</div><!-- #content -->

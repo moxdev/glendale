@@ -1,1 +1,0 @@
-var floor_plan_expand=function(){var e=jQuery(this).next();jQuery(e).hasClass("active")?(jQuery(e).removeClass("active"),jQuery(this).html("View Floor Plans +")):(jQuery(e).addClass("active"),jQuery(this).html("Hide Floor Plans -"))};jQuery(".fp-models .view-btn").on("click",floor_plan_expand);

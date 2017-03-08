@@ -132,10 +132,10 @@ function glendale_scripts() {
 		wp_enqueue_script( 'glendale-features-amenities', get_template_directory_uri() . '/js/min/features-amenities-min.js', array(), false, true );
 	}
 
-    // if ( is_page_template( 'page-floorplans.php' ) ) {
+    if ( is_page_template( 'page-floorplans.php' ) ) {
 
-    //     wp_enqueue_script( 'glendale-floorplans', get_template_directory_uri() . '/js/min/floorplans-min.js', array('jquery'), false, true );
-    // }
+        wp_enqueue_script( 'glendale-floorplans', get_template_directory_uri() . '/js/min/floorplans-min.js', array('jquery'), false, true );
+    }
 
 	if ( is_page_template( 'page-floorplans.php' )  || is_page_template( 'page-photo-gallery.php' ) ) {
 
