@@ -35,45 +35,59 @@
         #primary {
             flex: 1;
             order:2;
-            margin-top: 1rem;
+            padding-top: 1.5em;
             margin-bottom: 1.1rem;
 
             .entry-title {
                 font-family: $font__light;
                 color: $color__h1;
-                font-size: 1.533rem;
+                font-size: 1.6rem;
+                line-height: 115%;
                 @include reset;
-                margin-bottom: .7rem;
-                line-height: 1.1;
+                margin-bottom: .5em;
 
                 @include respond-to('small') {
-                    padding-right: 1em;
-                }
-
-                @include respond-to('small-land') {
-                    padding-right: 7em;
-                }
-
-                @media screen and (min-width:600px) {
-                    padding-right: 10em;
-                }
-
-                @include respond-to('tablet') {
                     padding-right: 2em;
                 }
 
+                @include respond-to('small-land') {
+                    padding-right: 8em;
+                }
+
+                @media screen and (min-width:600px) {
+                    text-align: center;
+                    padding-right: 1em;
+                    padding-left: 1em;
+                }
+
+                @include respond-to('tablet') {
+                    padding-right: 3em;
+                    padding-left: 3em;
+                }
+
+                @media screen and (min-width:875px) {
+                    padding-right: 5em;
+                    padding-left: 5em;
+                }
+
                 @include respond-to('medium') {
-                    font-size: 2.8rem;
-                    padding-right: 0;
+                    font-size: 2.7rem;
+                    text-align: left;
+                    padding: 0;
+                    line-height: 110%;
+                }
+
+                @include respond-to('large') {
+                    font-size: 3rem;
                 }
             }
 
             @include respond-to(medium) {
-                order:1;
                 flex: 2;
-                padding-right: 1em;
+                order:1;
+                padding-top: 0;
+                padding-right: 2em;
                 font-size: 1.333rem;
-                margin-right: 1em;
             }
         }
 
@@ -84,7 +98,7 @@
             @include respond-to(medium) {
                 flex: 1;
                 order:2;
-                min-width: 275px;
+                min-width: 300px;
                 max-width: 350px;
             }
         }
