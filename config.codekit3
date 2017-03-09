@@ -604,22 +604,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/imgs\/logo-map-50.png": {
-		"ft": 32768,
-		"iS": 2360,
-		"oA": 0,
-		"oAP": "\/imgs\/logo-map-50.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/logo-map.png": {
-		"ft": 32768,
-		"iS": 1213,
-		"oA": 0,
-		"oAP": "\/imgs\/logo-map.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/imgs\/logo.png": {
 		"ft": 32768,
 		"iS": 21342,
@@ -726,38 +710,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/imgs\/static-comm-marker.png": {
-		"ft": 32768,
-		"iS": 5483,
-		"oA": 0,
-		"oAP": "\/imgs\/static-comm-marker.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/tag-30.png": {
-		"ft": 32768,
-		"iS": 374,
-		"oA": 0,
-		"oAP": "\/imgs\/tag-30.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/tag-40.png": {
-		"ft": 32768,
-		"iS": 458,
-		"oA": 0,
-		"oAP": "\/imgs\/tag-40.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/tag-50.png": {
-		"ft": 32768,
-		"iS": 540,
-		"oA": 0,
-		"oAP": "\/imgs\/tag-50.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/inc\/apartment-availability.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -818,6 +770,12 @@
 		"oAP": "\/inc\/features-amenities.php",
 		"oF": 0
 		},
+	"\/inc\/floorplans-2.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/floorplans-2.php",
+		"oF": 0
+		},
 	"\/inc\/floorplans.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -834,12 +792,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/header-example.php",
-		"oF": 0
-		},
-	"\/inc\/homepage-sidebar-backup.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/homepage-sidebar-backup.php",
 		"oF": 0
 		},
 	"\/inc\/homepage-sidebar.php": {

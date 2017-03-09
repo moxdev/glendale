@@ -2,78 +2,23 @@
 
     .feature-amenities-wrapper {
         margin-bottom: 3em;
-        display: block;
     }
 
-    // .section-header {
-    //     margin-bottom: 1.250em;
-
-    //     h2 {
-    //         padding: 0 .1em;
-
-    //         @include respond-to(small) {
-    //             padding: 0 .4em;
-    //         }
-    //     }
-
-    //     @include respond-to(medium) {
-    //         margin-bottom: 1.688em;
-
-
-    //     }
-    // }
-
     .section-header {
-        background-color: #fff;
-        position: relative;
-        text-align: center;
-        margin-bottom: .5em;
-
-        &:before,
-        &:after {
-            content: '';
-            display: block;
-            width: 100%;
-            height: 2px;
-            background-color: $color__brand-gray;
-            position: absolute;
-            z-index: 1;
-        }
-
-        &:before {
-            top: 16px ;
-
-            @include respond-to(small) {
-                top:20px;
-            }
-
-            @include respond-to(medium) {
-                top:23px;
-            }
-        }
-
-        &:after {
-            bottom: 12px;
-
-            @include respond-to(small) {
-                bottom: 15px;
-            }
-
-            @include respond-to(medium) {
-                bottom: 20px;
-            }
-        }
+        margin-bottom: 1.250em;
 
         h2 {
-            font-size: 1.6rem;
+            padding: 0 .1em;
 
             @include respond-to(small) {
-                font-size: 1.933rem;
+                padding: 0 .4em;
             }
+        }
 
-            @include respond-to(medium) {
-                font-size: 2.467rem;
-            }
+        @include respond-to(medium) {
+            margin-bottom: 1.688em;
+
+
         }
     }
 

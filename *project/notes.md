@@ -31,7 +31,6 @@ $font__black
 45px = 3rem
 46px = 3.067rem
 48px = 3.2rem
-65px = 4.333rem
 66px = 4.4rem
 
 
