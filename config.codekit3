@@ -610,7 +610,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/logo-map-50.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/logo-map.png": {
 		"ft": 32768,
@@ -618,7 +618,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/logo-map.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/logo.png": {
 		"ft": 32768,
@@ -740,7 +740,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/tag-30.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/tag-40.png": {
 		"ft": 32768,
@@ -748,7 +748,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/tag-40.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/tag-50.png": {
 		"ft": 32768,
@@ -756,7 +756,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/tag-50.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/inc\/apartment-availability.php": {
 		"ft": 8192,

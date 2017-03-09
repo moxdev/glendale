@@ -82,6 +82,7 @@
                 padding: .5em;
                 border-bottom: 2px solid $color__brand-black;
 
+
                 h2 {
                     color: $color__brand-gray;
                     text-transform: uppercase;
@@ -96,47 +97,63 @@
                 }
 
                 h4 {
+                    width: 100%;
                     font-family: $font__regular;
                     font-size: 0.8rem;
                     line-height: 120%;
                     @include reset;
                     margin: 1rem 0;
                 }
-            }
 
-            @media screen and (min-width:650px) {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
+                .image-wrapper {
+                    display: flex;
 
-                .sidebar-specials {
-                    width: 100%;
-                }
+                    h2 {
+                        flex: 0 1 auto;
 
-                .homepage-events {
-                    width: 50%;
-                    padding-right: 1em;
-                }
+                    }
 
-                .homepage-announcements {
-                    width: 50%;
-                    padding-left: 1em;
+                    img {
+                        flex: 1 0 auto;
+                        max-height: 100px;
+
+                    }
                 }
             }
 
-            @include respond-to('medium') {
-                display: block;
-                max-width: 325px;
-                line-height: 1;
+            // @media screen and (min-width:650px) {
+            //     display: flex;
+            //     flex-wrap: wrap;
+            //     justify-content: space-between;
 
-                .homepage-events {
-                    width: 100%;
-                }
+            //     .sidebar-specials {
+            //         width: 100%;
+            //     }
 
-                .homepage-announcements {
-                    width: 100%;
-                }
-            }
+            //     .homepage-events {
+            //         width: 100%;
+            //         padding-right: 1em;
+            //     }
+
+            //     .homepage-announcements {
+            //         width: 50%;
+            //         padding-left: 1em;
+            //     }
+            // }
+
+            // @include respond-to('medium') {
+            //     display: block;
+            //     max-width: 325px;
+            //     line-height: 1;
+
+            //     .homepage-events {
+            //         width: 100%;
+            //     }
+
+            //     .homepage-announcements {
+            //         width: 100%;
+            //     }
+            // }
         }
     }
 }
