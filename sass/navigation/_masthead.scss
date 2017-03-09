@@ -1,15 +1,43 @@
 // masthead.scss
 
 #masthead {
-    background-color: $color__brand-seagreen;
-    color: #fff;
     width: 100%;
     height: auto;
+    color: #fff;
+    background-color: $color__brand-seagreen;
     border-bottom: 5px solid $color__brand-pink;
     @include padding-left-right;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    line-height: 1;
 
-    a, a:active, a:focus {
-        outline: none;
+    // a, a:active, a:focus {
+    //     outline: none;
+    // }
+
+    .site-branding {
+        align-self: flex-end;
+
+        img {
+            max-width: 135px;
+
+            @include respond-to(small) {
+                max-width: 145px;
+            }
+
+            @include respond-to(tablet) {
+                max-width: 175px;
+            }
+
+            @include respond-to(large) {
+                max-width: 200px;
+            }
+        }
+
+        @include respond-to(large) {
+            padding-top: .5em;
+            padding-bottom: .5em;
+        }
     }
 
     .mobile-menu {
@@ -19,7 +47,7 @@
     .toggled {
         display: block;
         position:absolute;
-        top: 81px;
+        top: 76px;
         left: 0;
         right: 0;
         height:auto;
@@ -28,6 +56,8 @@
         color: #fff;
         overflow:hidden;
         z-index:9999;
+        padding-top: .5em;
+        padding-bottom: 1em;
 
         .menu-mobile-menu-container {
             display: block !important;;
@@ -36,8 +66,7 @@
             ul {
                 display: block !important;
                 list-style: none;
-                margin: 0;
-                padding:0;
+                @include reset;
                 @include padding-left-right;
                 text-align: left;
 
@@ -47,9 +76,19 @@
 
                 li {
                     display: block !important;
-                    margin: 0;
+                    padding-left: 1.5em;
                     padding-bottom: 1em;
                     position: relative;
+                    vertical-align: middle;
+                    &:before {
+                        content: '\25b6';
+                        color: #fff;
+                        font-size: .8rem;
+                        // margin-right: 10px;
+                        vertical-align: middle;
+                        position: absolute;
+                        left: 0;
+                    }
 
                     a {
                         font-family: $font__light;
@@ -59,15 +98,6 @@
                         text-decoration:none;
                         font-size: 1rem;
                         text-transform: uppercase;
-
-                        &:before {
-                            content: '\25b6';
-                            color: #fff;
-                            font-size: .5em;
-                            margin-right: 10px;
-                            vertical-align: middle;
-                            // position: absolute;
-                        }
 
                         @include respond-to(small-land) {
                             font-size: 1.5rem;
@@ -96,10 +126,41 @@
         }
 
         @include respond-to(small) {
-            top:106px
+            top:84px
         }
 
-        @include respond-to(large) {
+        @include respond-to(tablet) {
+            top:92px;
+        }
+
+        @include respond-to(nav) {
+            display: none;
+        }
+    }
+
+    .menu-toggle {
+        background-color: $color__brand-gray;
+        color: #fff;
+        font-family: $font__regular;
+        font-size: 0.9333rem;
+        text-transform: uppercase;
+        width: 72px;
+        margin-left: auto;
+        padding: .5em;
+        margin-top: .5em;
+
+        @include respond-to(small) {
+            font-size: 1rem;
+            width: 78px;
+            margin-top: .75em;
+        }
+
+        @include respond-to(tablet) {
+            font-size: 1rem;
+            width: 78px;
+        }
+
+        @include respond-to(nav) {
             display: none;
         }
     }
@@ -107,56 +168,37 @@
     .masthead-wrapper {
         display: flex;
         justify-content: space-between;
-        align-content: flex-end;
-        padding: .5em 0;
-
-        .site-branding {
-            flex: 1;
-            // align-self: flex-end;
-            // margin-top: 5px;
-
-            img {
-                max-width: 135px;
-
-                @include respond-to('small') {
-                    max-width: 200px;
-                }
-
-                @include respond-to('large') {
-                    max-width: 250px;
-                    padding-top: .5em;
-                    padding-bottom: .5em;
-                }
-
-                @include respond-to('x-large') {
-                    max-width: 300px;
-                }
-            }
-
-            @include respond-to(large) {
-                flex: none;
-            }
-        }
+        align-items: flex-end;
+        // padding: .5em 0;
 
         .main-navigation {
             flex: 1;
-            align-self: flex-end;
-            display: flex;
-            flex-direction: column;
-            position: relative;
+            text-align: right;
+            // align-self: flex-end;
+            // display: flex;
+            // flex-direction: column;
 
             .masthead-phone {
                 text-align: right;
                 color: #000;
                 font-family: $font__extra-bold;
-                margin-bottom: 5px;
+                // margin-bottom: 5px;
 
                 span {
                     display: none;
+                    font-size: 1.1rem;
                     margin-right: .5em;
 
                     @include respond-to('tablet') {
                         display: inline-flex;
+                    }
+
+                    @include respond-to(nav) {
+                        font-size: 1.2rem;
+                    }
+
+                    @include respond-to(x-large) {
+                        font-size: 1.4rem;
                     }
                 }
 
@@ -169,22 +211,14 @@
                     @include respond-to(small) {
                         font-size: 1.267rem;
                     }
-                }
-            }
 
-            .menu-toggle {
-                background-color: $color__brand-gray;
-                color: #fff;
-                font-family: $font__regular;
-                font-size: 0.9333rem;
-                text-transform: uppercase;
-                width: 72px;
-                margin-left: auto;
-                padding: .5em;
+                    @include respond-to(nav) {
+                        font-size: 1.9rem;
+                    }
 
-                @include respond-to(small) {
-                    font-size: 1rem;
-                    width: 78px;
+                    @include respond-to(x-large) {
+                        font-size: 2.4rem;
+                    }
                 }
             }
 
@@ -205,9 +239,14 @@
 
                     li {
                         list-style: none;
+                        padding-left: 10px;
+
+                        &:first-child {
+                            padding-left: 0;
+                        }
 
                         a {
-                            padding: 1.5em;
+                            // padding: 1.5em;
                             color: #000;
                             text-decoration: none;
                             font-family: $font__light;
@@ -222,80 +261,52 @@
                         }
                     }
                 }
-            }
-        }
 
-        @include respond-to('small-land') {
-            padding-top: .5em;
-
-            .menu-toggle {
-                margin-top: .20em;
-            }
-        }
-
-        @include respond-to('tablet') {
-
-            .main-navigation {
-                flex: 2;
-            }
-        }
-
-        @include respond-to('large') {
-            line-height: 1;
-            @include reset;
-
-            .main-navigation {
-                text-align: right;
-
-                .menu-toggle {
-                    display: none;
-                }
-
-                .masthead-phone {
-                    font-size:  1.4rem;
-
-                    a {
-                        font-size: 2.4rem;
-                    }
-                }
-
-                .menu-primary-container {
-                    display: inline-block;
+                @include respond-to(nav) {
+                    display: block;
 
                     ul {
                         display: inline-flex;
-                        padding: 0;
 
                         li {
-                            padding-left: 10px;
-
-                            @media screen and (min-width:1300px) {
-                                padding-left: 20px;
-                            }
-
                             a {
-                                @include reset;
-                                font-size: 1rem;
+                                font-size: .9rem;
+                                padding:0;
+                            }
+                        }
+                    }
+                }
 
-                                @media screen and (min-width:1300px) {
-                                    font-size: 1.1rem;
-                                }
+                @include respond-to(large) {
 
-                                @media screen and (min-width:1400px) {
-                                    font-size: 1.2rem;
-                                }
+                    ul {
 
-                                @include respond-to(x-large) {
-                                    font-size: 1.3rem;
-                                }
+                        li {
+                            a {
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
+                }
 
-                                @media screen and (min-width:1600px) {
-                                    font-size: 1.4rem;
-                                }
+                @media screen and (min-width:1300px) {
+                    ul {
 
-                                &:last-child {
-                                    padding-right: 0;
-                                }
+                        li {
+                            a {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(x-large) {
+                    ul {
+
+                        li {
+                            padding-left: 1em;
+                            a {
+                                font-size: 1.4rem;
                             }
                         }
                     }
@@ -304,8 +315,8 @@
         }
     }
 
-    @include respond-to(x-large) {
-        padding-top: .5em;
-        padding-bottom: .5em;
+    @include respond-to(large) {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 } // #masthead
