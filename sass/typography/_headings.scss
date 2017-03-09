@@ -25,18 +25,18 @@ h1 {
     }
 
     &:before {
-        top: 11px ;
+        top: 19px ;
 
         @include respond-to(medium) {
-            top:16px;
+            top:26px;
         }
     }
 
     &:after {
-        bottom: 10px;
+        bottom: 15px;
 
         @include respond-to(medium) {
-            bottom: 11px;
+            bottom: 20px;
         }
     }
 
@@ -45,7 +45,7 @@ h1 {
         font-family: $font__black;
         color: $color__brand-gray;
         background-color: #fff;
-        font-size: 1.933rem;
+        font-size: 1.833rem;
         text-align: center;
         padding: 0 .4em;
         display: inline-block;

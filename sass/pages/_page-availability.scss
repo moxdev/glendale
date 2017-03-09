@@ -4,6 +4,13 @@
 
         .site-content {
 
+            #primary {
+                .entry-title {
+                    text-align: center;
+                    margin-bottom: 1em;
+                }
+            }
+
             .content-wrapper {
                 max-width: 1200px !important;
             }

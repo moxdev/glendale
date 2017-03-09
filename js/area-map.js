@@ -62,11 +62,11 @@ function buildMap(data, location) {
     // If "addCommMarker" is true, add a static marker to the map for our community
     function addCommunityMarker(lat, lng) {
         var infowindow = new google.maps.InfoWindow({
-          content: '<div id="content">'+ '<h2 id="firstHeading" class="firstHeading">The Glendale</h2>' + '</div>'
+          content: '<div id="content">'+ '<h3 id="firstHeading" class="firstHeading">The Glendale</h3>' + '</div>'
         });
 
         commMarker = new google.maps.Marker({
-            position: {lat: 39.156403, lng: -77.201815},
+            position: {lat: 38.993799, lng: -76.834594},
             map: map,
             zIndex: 1000,
             animation: google.maps.Animation.DROP,

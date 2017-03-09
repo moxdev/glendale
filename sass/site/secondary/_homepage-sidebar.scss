@@ -94,6 +94,14 @@
                         font-size: 1.667rem;
                     }
                 }
+
+                h4 {
+                    font-family: $font__regular;
+                    font-size: 0.8rem;
+                    line-height: 120%;
+                    @include reset;
+                    margin: 1rem 0;
+                }
             }
 
             @media screen and (min-width:650px) {
