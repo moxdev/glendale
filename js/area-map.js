@@ -3,7 +3,7 @@
 var myMap = 'map-canvas';
 
 // Google Maps API Key
-var apiKey = 'AIzaSyADCwQsm4dr4dv8HOAhUHwVGZI9tnV-blk';
+var apiKey = 'AIzaSyAyi3yPE8v1UMPEJK5P1sYr5qhC9uik6YE';
 
 // Paths to JSON data
 var markersFeed = '/wp-json/wp/v2/area_landmarks?per_page=100';

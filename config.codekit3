@@ -588,6 +588,98 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/fav.png": {
+		"ft": 32768,
+		"iS": 54680,
+		"oA": 0,
+		"oAP": "\/imgs\/fav.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons (1).zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons (1).zip",
+		"oF": 0
+		},
+	"\/imgs\/favicons (1)\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 38603,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons (1)\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons (1)\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 59328,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons (1)\/android-chrome-256x256.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons (1)\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 35097,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons (1)\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons (1)\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons (1)\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/imgs\/favicons (1)\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1333,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons (1)\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons (1)\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2854,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons (1)\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons (1)\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons (1)\/favicon.ico",
+		"oF": 0
+		},
+	"\/imgs\/favicons (1)\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/imgs\/favicons (1)\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/imgs\/favicons (1)\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 21043,
+		"oA": 0,
+		"oAP": "\/imgs\/favicons (1)\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/favicons (1)\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/favicons (1)\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/logo-200.png": {
 		"ft": 32768,
 		"iS": 20695,

@@ -5,7 +5,7 @@ var directionsForm = 'get-directions';
 var mapResponses = 'response-panel';
 
 // Google Maps API Key
-var apiKey = 'AIzaSyADCwQsm4dr4dv8HOAhUHwVGZI9tnV-blk';
+var apiKey = 'AIzaSyAyi3yPE8v1UMPEJK5P1sYr5qhC9uik6YE';
 
 var directionsDisplay;
 var directionsService;
