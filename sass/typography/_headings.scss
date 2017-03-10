@@ -1,11 +1,20 @@
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
     color: $color__brand-black;
+    @include reset;
     font-weight:normal;
 }
 
 h1 {
-    line-height: 1
+    margin: .5em 0;
+    line-height: 1;
+}
+
+h2 {
+    // font-family: $font__bold;
+    // font-size: 1.438rem;
+    // margin: .5em 0;
+    line-height: 1;
 }
 
 .section-header {
@@ -25,18 +34,18 @@ h1 {
     }
 
     &:before {
-        top: 19px ;
+        top: 11px ;
 
         @include respond-to(medium) {
-            top:26px;
+            top:16px;
         }
     }
 
     &:after {
-        bottom: 15px;
+        bottom: 10px;
 
         @include respond-to(medium) {
-            bottom: 20px;
+            bottom: 11px;
         }
     }
 
@@ -45,7 +54,7 @@ h1 {
         font-family: $font__black;
         color: $color__brand-gray;
         background-color: #fff;
-        font-size: 1.833rem;
+        font-size: 1.933rem;
         text-align: center;
         padding: 0 .4em;
         display: inline-block;

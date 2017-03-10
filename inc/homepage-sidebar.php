@@ -74,17 +74,13 @@ function glendale_homepage_sidebar() { ?>
                 $pf_disc = get_sub_field('announcement_disclaimer'); ?>
 
                 <div class="homepage-announcements">
-                    <div class="image-wrapper">
+                    <?php if( !empty($pf_h2) ): ?>
+                        <h2 class="header"><?php echo $pf_h2; ?></h2>
+                    <?php endif; ?>
 
-                        <?php if( !empty($pf_h2) ): ?>
-                            <h2 class="header"><?php echo $pf_h2; ?></h2>
-                        <?php endif; ?>
-
-                        <?php if( !empty($pf_image) ): ?>
-                            <img src="<?php echo $pf_image['sizes']['sidebar-image']; ?>" alt="<?php echo $pf_image['alt']; ?>">
-                        <?php endif; ?>
-
-                    </div>
+                    <?php if( !empty($pf_image) ): ?>
+                        <img src="<?php echo $pf_image['sizes']['sidebar-image']; ?>" alt="<?php echo $pf_image['alt']; ?>">
+                    <?php endif; ?>
 
                     <?php if( !empty($pf_disc) ) : ?>
                         <h4 class="disclaimer"><?php echo $pf_disc; ?></h4>

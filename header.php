@@ -15,8 +15,23 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
 <?php wp_head(); ?>
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-93493538-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -27,7 +42,7 @@
 		<div class="masthead-wrapper">
 			<div class="site-branding">
 
-				<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="http://localhost:8888/glendale/wp-content/themes/glendale/imgs/logo-300.png"></a><!-- #logo -->
+				<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/themes/glendale/imgs/logo-300.png"></a><!-- #logo -->
 
 				<?php if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

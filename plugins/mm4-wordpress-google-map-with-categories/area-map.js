@@ -3,16 +3,16 @@
 var myMap = 'map-canvas';
 
 // Google Maps API Key
-var apiKey = 'AIzaSyADCwQsm4dr4dv8HOAhUHwVGZI9tnV-blk';
+var apiKey = 'AIzaSyDqcS80RSqBcZepAEhhxKHkSzYLZeNI0Ho';
 
 // Paths to JSON data
-var markersFeed = '/wp-json/wp/v2/area_landmarks/?filter[posts_per_page]=-1';
+var markersFeed = 'http://localhost:8888/glendale/wp-json/wp/v2/area_landmarks/?filter[posts_per_page]=-1';
 
 // Specify whether you want to add category controls for landmarks to the map (true/false).
 // If you do, add the path to your category feed and the path to your image directory where your icons are stored
 var addCats = true;
-var catsFeed = '/wp-json/wp/v2/landmark_types';
-var catIconPath = '/wp-content/themes/glendale/imgs/';
+var catsFeed = 'http://localhost:8888/glendale/wp-json/wp/v2/landmark_types';
+var catIconPath = 'http://localhost:8888/glendale/wp-content/themes/glendale/imgs/';
 
 var map;
 var bounds;
